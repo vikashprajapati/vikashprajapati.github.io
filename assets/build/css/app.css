@@ -798,23 +798,23 @@ video {
 }
 
 .bg-white-faded {
-    background-color: #FEFEFC;
+    background-color: #fefefc;
 }
 
 .bg-blue-light {
-    background-color: #37B5CB;
+    background-color: #37b5cb;
 }
 
 .bg-green {
-    background-color: #33D7B5;
+    background-color: #33d7b5;
 }
 
 .bg-gray-light {
-    background-color: #4B5750;
+    background-color: #4b5750;
 }
 
 .bg-gray-dark {
-    background-color: #38403B;
+    background-color: #38403b;
 }
 
 .bg-gray-darker {
@@ -826,7 +826,7 @@ video {
 }
 
 .bg-orange {
-    background-color: #F29057;
+    background-color: #f29057;
 }
 
 .hover\:bg-transparent:hover {
@@ -842,23 +842,23 @@ video {
 }
 
 .hover\:bg-white-faded:hover {
-    background-color: #FEFEFC;
+    background-color: #fefefc;
 }
 
 .hover\:bg-blue-light:hover {
-    background-color: #37B5CB;
+    background-color: #37b5cb;
 }
 
 .hover\:bg-green:hover {
-    background-color: #33D7B5;
+    background-color: #33d7b5;
 }
 
 .hover\:bg-gray-light:hover {
-    background-color: #4B5750;
+    background-color: #4b5750;
 }
 
 .hover\:bg-gray-dark:hover {
-    background-color: #38403B;
+    background-color: #38403b;
 }
 
 .hover\:bg-gray-darker:hover {
@@ -870,7 +870,7 @@ video {
 }
 
 .hover\:bg-orange:hover {
-    background-color: #F29057;
+    background-color: #f29057;
 }
 
 .focus\:bg-transparent:focus {
@@ -886,23 +886,23 @@ video {
 }
 
 .focus\:bg-white-faded:focus {
-    background-color: #FEFEFC;
+    background-color: #fefefc;
 }
 
 .focus\:bg-blue-light:focus {
-    background-color: #37B5CB;
+    background-color: #37b5cb;
 }
 
 .focus\:bg-green:focus {
-    background-color: #33D7B5;
+    background-color: #33d7b5;
 }
 
 .focus\:bg-gray-light:focus {
-    background-color: #4B5750;
+    background-color: #4b5750;
 }
 
 .focus\:bg-gray-dark:focus {
-    background-color: #38403B;
+    background-color: #38403b;
 }
 
 .focus\:bg-gray-darker:focus {
@@ -914,7 +914,7 @@ video {
 }
 
 .focus\:bg-orange:focus {
-    background-color: #F29057;
+    background-color: #f29057;
 }
 
 .bg-bottom {
@@ -1010,23 +1010,23 @@ video {
 }
 
 .border-white-faded {
-    border-color: #FEFEFC;
+    border-color: #fefefc;
 }
 
 .border-blue-light {
-    border-color: #37B5CB;
+    border-color: #37b5cb;
 }
 
 .border-green {
-    border-color: #33D7B5;
+    border-color: #33d7b5;
 }
 
 .border-gray-light {
-    border-color: #4B5750;
+    border-color: #4b5750;
 }
 
 .border-gray-dark {
-    border-color: #38403B;
+    border-color: #38403b;
 }
 
 .border-gray-darker {
@@ -1038,7 +1038,7 @@ video {
 }
 
 .border-orange {
-    border-color: #F29057;
+    border-color: #f29057;
 }
 
 .hover\:border-transparent:hover {
@@ -1054,23 +1054,23 @@ video {
 }
 
 .hover\:border-white-faded:hover {
-    border-color: #FEFEFC;
+    border-color: #fefefc;
 }
 
 .hover\:border-blue-light:hover {
-    border-color: #37B5CB;
+    border-color: #37b5cb;
 }
 
 .hover\:border-green:hover {
-    border-color: #33D7B5;
+    border-color: #33d7b5;
 }
 
 .hover\:border-gray-light:hover {
-    border-color: #4B5750;
+    border-color: #4b5750;
 }
 
 .hover\:border-gray-dark:hover {
-    border-color: #38403B;
+    border-color: #38403b;
 }
 
 .hover\:border-gray-darker:hover {
@@ -1082,7 +1082,7 @@ video {
 }
 
 .hover\:border-orange:hover {
-    border-color: #F29057;
+    border-color: #f29057;
 }
 
 .focus\:border-transparent:focus {
@@ -1098,23 +1098,23 @@ video {
 }
 
 .focus\:border-white-faded:focus {
-    border-color: #FEFEFC;
+    border-color: #fefefc;
 }
 
 .focus\:border-blue-light:focus {
-    border-color: #37B5CB;
+    border-color: #37b5cb;
 }
 
 .focus\:border-green:focus {
-    border-color: #33D7B5;
+    border-color: #33d7b5;
 }
 
 .focus\:border-gray-light:focus {
-    border-color: #4B5750;
+    border-color: #4b5750;
 }
 
 .focus\:border-gray-dark:focus {
-    border-color: #38403B;
+    border-color: #38403b;
 }
 
 .focus\:border-gray-darker:focus {
@@ -1126,7 +1126,7 @@ video {
 }
 
 .focus\:border-orange:focus {
-    border-color: #F29057;
+    border-color: #f29057;
 }
 
 .rounded-none {
@@ -4162,103 +4162,103 @@ video {
 }
 
 .placeholder-white-faded::-webkit-input-placeholder {
-    color: #FEFEFC;
+    color: #fefefc;
 }
 
 .placeholder-white-faded::-moz-placeholder {
-    color: #FEFEFC;
+    color: #fefefc;
 }
 
 .placeholder-white-faded:-ms-input-placeholder {
-    color: #FEFEFC;
+    color: #fefefc;
 }
 
 .placeholder-white-faded::-ms-input-placeholder {
-    color: #FEFEFC;
+    color: #fefefc;
 }
 
 .placeholder-white-faded::placeholder {
-    color: #FEFEFC;
+    color: #fefefc;
 }
 
 .placeholder-blue-light::-webkit-input-placeholder {
-    color: #37B5CB;
+    color: #37b5cb;
 }
 
 .placeholder-blue-light::-moz-placeholder {
-    color: #37B5CB;
+    color: #37b5cb;
 }
 
 .placeholder-blue-light:-ms-input-placeholder {
-    color: #37B5CB;
+    color: #37b5cb;
 }
 
 .placeholder-blue-light::-ms-input-placeholder {
-    color: #37B5CB;
+    color: #37b5cb;
 }
 
 .placeholder-blue-light::placeholder {
-    color: #37B5CB;
+    color: #37b5cb;
 }
 
 .placeholder-green::-webkit-input-placeholder {
-    color: #33D7B5;
+    color: #33d7b5;
 }
 
 .placeholder-green::-moz-placeholder {
-    color: #33D7B5;
+    color: #33d7b5;
 }
 
 .placeholder-green:-ms-input-placeholder {
-    color: #33D7B5;
+    color: #33d7b5;
 }
 
 .placeholder-green::-ms-input-placeholder {
-    color: #33D7B5;
+    color: #33d7b5;
 }
 
 .placeholder-green::placeholder {
-    color: #33D7B5;
+    color: #33d7b5;
 }
 
 .placeholder-gray-light::-webkit-input-placeholder {
-    color: #4B5750;
+    color: #4b5750;
 }
 
 .placeholder-gray-light::-moz-placeholder {
-    color: #4B5750;
+    color: #4b5750;
 }
 
 .placeholder-gray-light:-ms-input-placeholder {
-    color: #4B5750;
+    color: #4b5750;
 }
 
 .placeholder-gray-light::-ms-input-placeholder {
-    color: #4B5750;
+    color: #4b5750;
 }
 
 .placeholder-gray-light::placeholder {
-    color: #4B5750;
+    color: #4b5750;
 }
 
 .placeholder-gray-dark::-webkit-input-placeholder {
-    color: #38403B;
+    color: #38403b;
 }
 
 .placeholder-gray-dark::-moz-placeholder {
-    color: #38403B;
+    color: #38403b;
 }
 
 .placeholder-gray-dark:-ms-input-placeholder {
-    color: #38403B;
+    color: #38403b;
 }
 
 .placeholder-gray-dark::-ms-input-placeholder {
-    color: #38403B;
+    color: #38403b;
 }
 
 .placeholder-gray-dark::placeholder {
-    color: #38403B;
+    color: #38403b;
 }
 
 .placeholder-gray-darker::-webkit-input-placeholder {
@@ -4302,23 +4302,23 @@ video {
 }
 
 .placeholder-orange::-webkit-input-placeholder {
-    color: #F29057;
+    color: #f29057;
 }
 
 .placeholder-orange::-moz-placeholder {
-    color: #F29057;
+    color: #f29057;
 }
 
 .placeholder-orange:-ms-input-placeholder {
-    color: #F29057;
+    color: #f29057;
 }
 
 .placeholder-orange::-ms-input-placeholder {
-    color: #F29057;
+    color: #f29057;
 }
 
 .placeholder-orange::placeholder {
-    color: #F29057;
+    color: #f29057;
 }
 
 .focus\:placeholder-transparent:focus::-webkit-input-placeholder {
@@ -4382,103 +4382,103 @@ video {
 }
 
 .focus\:placeholder-white-faded:focus::-webkit-input-placeholder {
-    color: #FEFEFC;
+    color: #fefefc;
 }
 
 .focus\:placeholder-white-faded:focus::-moz-placeholder {
-    color: #FEFEFC;
+    color: #fefefc;
 }
 
 .focus\:placeholder-white-faded:focus:-ms-input-placeholder {
-    color: #FEFEFC;
+    color: #fefefc;
 }
 
 .focus\:placeholder-white-faded:focus::-ms-input-placeholder {
-    color: #FEFEFC;
+    color: #fefefc;
 }
 
 .focus\:placeholder-white-faded:focus::placeholder {
-    color: #FEFEFC;
+    color: #fefefc;
 }
 
 .focus\:placeholder-blue-light:focus::-webkit-input-placeholder {
-    color: #37B5CB;
+    color: #37b5cb;
 }
 
 .focus\:placeholder-blue-light:focus::-moz-placeholder {
-    color: #37B5CB;
+    color: #37b5cb;
 }
 
 .focus\:placeholder-blue-light:focus:-ms-input-placeholder {
-    color: #37B5CB;
+    color: #37b5cb;
 }
 
 .focus\:placeholder-blue-light:focus::-ms-input-placeholder {
-    color: #37B5CB;
+    color: #37b5cb;
 }
 
 .focus\:placeholder-blue-light:focus::placeholder {
-    color: #37B5CB;
+    color: #37b5cb;
 }
 
 .focus\:placeholder-green:focus::-webkit-input-placeholder {
-    color: #33D7B5;
+    color: #33d7b5;
 }
 
 .focus\:placeholder-green:focus::-moz-placeholder {
-    color: #33D7B5;
+    color: #33d7b5;
 }
 
 .focus\:placeholder-green:focus:-ms-input-placeholder {
-    color: #33D7B5;
+    color: #33d7b5;
 }
 
 .focus\:placeholder-green:focus::-ms-input-placeholder {
-    color: #33D7B5;
+    color: #33d7b5;
 }
 
 .focus\:placeholder-green:focus::placeholder {
-    color: #33D7B5;
+    color: #33d7b5;
 }
 
 .focus\:placeholder-gray-light:focus::-webkit-input-placeholder {
-    color: #4B5750;
+    color: #4b5750;
 }
 
 .focus\:placeholder-gray-light:focus::-moz-placeholder {
-    color: #4B5750;
+    color: #4b5750;
 }
 
 .focus\:placeholder-gray-light:focus:-ms-input-placeholder {
-    color: #4B5750;
+    color: #4b5750;
 }
 
 .focus\:placeholder-gray-light:focus::-ms-input-placeholder {
-    color: #4B5750;
+    color: #4b5750;
 }
 
 .focus\:placeholder-gray-light:focus::placeholder {
-    color: #4B5750;
+    color: #4b5750;
 }
 
 .focus\:placeholder-gray-dark:focus::-webkit-input-placeholder {
-    color: #38403B;
+    color: #38403b;
 }
 
 .focus\:placeholder-gray-dark:focus::-moz-placeholder {
-    color: #38403B;
+    color: #38403b;
 }
 
 .focus\:placeholder-gray-dark:focus:-ms-input-placeholder {
-    color: #38403B;
+    color: #38403b;
 }
 
 .focus\:placeholder-gray-dark:focus::-ms-input-placeholder {
-    color: #38403B;
+    color: #38403b;
 }
 
 .focus\:placeholder-gray-dark:focus::placeholder {
-    color: #38403B;
+    color: #38403b;
 }
 
 .focus\:placeholder-gray-darker:focus::-webkit-input-placeholder {
@@ -4522,23 +4522,23 @@ video {
 }
 
 .focus\:placeholder-orange:focus::-webkit-input-placeholder {
-    color: #F29057;
+    color: #f29057;
 }
 
 .focus\:placeholder-orange:focus::-moz-placeholder {
-    color: #F29057;
+    color: #f29057;
 }
 
 .focus\:placeholder-orange:focus:-ms-input-placeholder {
-    color: #F29057;
+    color: #f29057;
 }
 
 .focus\:placeholder-orange:focus::-ms-input-placeholder {
-    color: #F29057;
+    color: #f29057;
 }
 
 .focus\:placeholder-orange:focus::placeholder {
-    color: #F29057;
+    color: #f29057;
 }
 
 .pointer-events-none {
@@ -4805,23 +4805,23 @@ video {
 }
 
 .text-white-faded {
-    color: #FEFEFC;
+    color: #fefefc;
 }
 
 .text-blue-light {
-    color: #37B5CB;
+    color: #37b5cb;
 }
 
 .text-green {
-    color: #33D7B5;
+    color: #33d7b5;
 }
 
 .text-gray-light {
-    color: #4B5750;
+    color: #4b5750;
 }
 
 .text-gray-dark {
-    color: #38403B;
+    color: #38403b;
 }
 
 .text-gray-darker {
@@ -4833,7 +4833,7 @@ video {
 }
 
 .text-orange {
-    color: #F29057;
+    color: #f29057;
 }
 
 .hover\:text-transparent:hover {
@@ -4849,23 +4849,23 @@ video {
 }
 
 .hover\:text-white-faded:hover {
-    color: #FEFEFC;
+    color: #fefefc;
 }
 
 .hover\:text-blue-light:hover {
-    color: #37B5CB;
+    color: #37b5cb;
 }
 
 .hover\:text-green:hover {
-    color: #33D7B5;
+    color: #33d7b5;
 }
 
 .hover\:text-gray-light:hover {
-    color: #4B5750;
+    color: #4b5750;
 }
 
 .hover\:text-gray-dark:hover {
-    color: #38403B;
+    color: #38403b;
 }
 
 .hover\:text-gray-darker:hover {
@@ -4877,7 +4877,7 @@ video {
 }
 
 .hover\:text-orange:hover {
-    color: #F29057;
+    color: #f29057;
 }
 
 .focus\:text-transparent:focus {
@@ -4893,23 +4893,23 @@ video {
 }
 
 .focus\:text-white-faded:focus {
-    color: #FEFEFC;
+    color: #fefefc;
 }
 
 .focus\:text-blue-light:focus {
-    color: #37B5CB;
+    color: #37b5cb;
 }
 
 .focus\:text-green:focus {
-    color: #33D7B5;
+    color: #33d7b5;
 }
 
 .focus\:text-gray-light:focus {
-    color: #4B5750;
+    color: #4b5750;
 }
 
 .focus\:text-gray-dark:focus {
-    color: #38403B;
+    color: #38403b;
 }
 
 .focus\:text-gray-darker:focus {
@@ -4921,7 +4921,7 @@ video {
 }
 
 .focus\:text-orange:focus {
-    color: #F29057;
+    color: #f29057;
 }
 
 .text-xs {
@@ -5412,7 +5412,7 @@ video {
     right: 0;
     left: 0;
     bottom: 0;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(#1d1d1d), color-stop(60%, rgba(255, 0, 0, 0)));
+    background-image: -webkit-gradient( linear, left bottom, left top, from(#1d1d1d), color-stop(60%, rgba(255, 0, 0, 0)));
     background-image: linear-gradient(to top, #1d1d1d, rgba(255, 0, 0, 0) 60%);
 }
 
@@ -5421,13 +5421,13 @@ video {
     font-size: 32px;
     letter-spacing: 0.6rem;
     font-weight: 600;
-    color: #33D7B5;
+    color: #33d7b5;
 }
 
 .user-img img {
     border: 4px solid transparent;
-    background-image: -webkit-gradient(linear, left top, right top, from(#33D7B5), to(#F29057));
-    background-image: linear-gradient(90deg, #33D7B5, #F29057 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(#33d7b5), to(#f29057));
+    background-image: linear-gradient(90deg, #33d7b5, #f29057 100%);
     background-origin: border-box;
     background-clip: border-box;
 }
@@ -5439,7 +5439,7 @@ video {
 }
 
 header .nav-links:hover {
-    color: #33D7B5;
+    color: #33d7b5;
 }
 
 header .nav-links:hover::after {
@@ -5452,7 +5452,7 @@ header .nav-links:hover::after {
 }
 
 .b-bottom {
-    border-bottom: 2px solid #33D7B5;
+    border-bottom: 2px solid #33d7b5;
     padding-bottom: 2px;
 }
 
@@ -5470,7 +5470,7 @@ header .nav-links::after {
     display: block;
     width: 0;
     height: 2px;
-    background: #33D7B5;
+    background: #33d7b5;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
 }
@@ -5478,13 +5478,13 @@ header .nav-links::after {
 header .btn {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    color: #33D7B5;
+    color: #33d7b5;
 }
 
 header .btn:hover {
-    border-color: #33D7B5;
-    background-color: #33D7B5;
-    color: #FEFEFC;
+    border-color: #33d7b5;
+    background-color: #33d7b5;
+    color: #fefefc;
 }
 
 .social-links a {
@@ -5495,7 +5495,7 @@ header .btn:hover {
 .social-links a:hover {
     -webkit-transform: rotatez(20deg);
     transform: rotatez(20deg);
-    color: #33D7B5;
+    color: #33d7b5;
 }
 
 .card {
@@ -5508,6 +5508,57 @@ header .btn:hover {
     background-color: #2f3230;
     border-radius: 0.75rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.card .card-header img {
+    max-height: 180px;
+    width: 100%;
+}
+
+@media (max-width: 400px){
+    nav{
+        padding:28px  0 !important;
+    }
+    nav .brand-logo a{
+        font-size: 24px;
+        margin: 0 16px !important;
+    }
+    .card{
+        margin: 24px 0 !important;
+    }
+    nav ul li{
+        display: none;
+    }
+    .cover-content > .projects{ 
+        margin: 60px 0 !important;
+        margin-bottom: 16px !important;
+    }
+    .projects{
+        justify-content: center;
+    }
+    .profile{
+        margin: 40px 0 !important;
+    }
+    .profile .user-img img{
+        width: 120px;
+        height: 120px;
+    }
+    .profile h1{
+        font-size: 18px;
+    }
+    .profile .user-desc{
+        font-size: 16px;
+    }
+    .profile .social-links{
+        margin: 14px 0 !important;
+    }
+    .profile .bio p{
+        width: 100% !important;
+    }
+    .profile .bio{
+        padding: 0 16px;
+        font-size: 16px;
+    }
 }
 
 .card:hover {
@@ -5587,19 +5638,19 @@ header .btn:hover {
         background-color: #fff;
     }
     .sm\:bg-white-faded {
-        background-color: #FEFEFC;
+        background-color: #fefefc;
     }
     .sm\:bg-blue-light {
-        background-color: #37B5CB;
+        background-color: #37b5cb;
     }
     .sm\:bg-green {
-        background-color: #33D7B5;
+        background-color: #33d7b5;
     }
     .sm\:bg-gray-light {
-        background-color: #4B5750;
+        background-color: #4b5750;
     }
     .sm\:bg-gray-dark {
-        background-color: #38403B;
+        background-color: #38403b;
     }
     .sm\:bg-gray-darker {
         background-color: #2f3230;
@@ -5608,7 +5659,7 @@ header .btn:hover {
         background-color: #1d1d1d;
     }
     .sm\:bg-orange {
-        background-color: #F29057;
+        background-color: #f29057;
     }
     .sm\:hover\:bg-transparent:hover {
         background-color: transparent;
@@ -5620,19 +5671,19 @@ header .btn:hover {
         background-color: #fff;
     }
     .sm\:hover\:bg-white-faded:hover {
-        background-color: #FEFEFC;
+        background-color: #fefefc;
     }
     .sm\:hover\:bg-blue-light:hover {
-        background-color: #37B5CB;
+        background-color: #37b5cb;
     }
     .sm\:hover\:bg-green:hover {
-        background-color: #33D7B5;
+        background-color: #33d7b5;
     }
     .sm\:hover\:bg-gray-light:hover {
-        background-color: #4B5750;
+        background-color: #4b5750;
     }
     .sm\:hover\:bg-gray-dark:hover {
-        background-color: #38403B;
+        background-color: #38403b;
     }
     .sm\:hover\:bg-gray-darker:hover {
         background-color: #2f3230;
@@ -5641,7 +5692,7 @@ header .btn:hover {
         background-color: #1d1d1d;
     }
     .sm\:hover\:bg-orange:hover {
-        background-color: #F29057;
+        background-color: #f29057;
     }
     .sm\:focus\:bg-transparent:focus {
         background-color: transparent;
@@ -5653,19 +5704,19 @@ header .btn:hover {
         background-color: #fff;
     }
     .sm\:focus\:bg-white-faded:focus {
-        background-color: #FEFEFC;
+        background-color: #fefefc;
     }
     .sm\:focus\:bg-blue-light:focus {
-        background-color: #37B5CB;
+        background-color: #37b5cb;
     }
     .sm\:focus\:bg-green:focus {
-        background-color: #33D7B5;
+        background-color: #33d7b5;
     }
     .sm\:focus\:bg-gray-light:focus {
-        background-color: #4B5750;
+        background-color: #4b5750;
     }
     .sm\:focus\:bg-gray-dark:focus {
-        background-color: #38403B;
+        background-color: #38403b;
     }
     .sm\:focus\:bg-gray-darker:focus {
         background-color: #2f3230;
@@ -5674,7 +5725,7 @@ header .btn:hover {
         background-color: #1d1d1d;
     }
     .sm\:focus\:bg-orange:focus {
-        background-color: #F29057;
+        background-color: #f29057;
     }
     .sm\:bg-bottom {
         background-position: bottom;
@@ -5746,19 +5797,19 @@ header .btn:hover {
         border-color: #fff;
     }
     .sm\:border-white-faded {
-        border-color: #FEFEFC;
+        border-color: #fefefc;
     }
     .sm\:border-blue-light {
-        border-color: #37B5CB;
+        border-color: #37b5cb;
     }
     .sm\:border-green {
-        border-color: #33D7B5;
+        border-color: #33d7b5;
     }
     .sm\:border-gray-light {
-        border-color: #4B5750;
+        border-color: #4b5750;
     }
     .sm\:border-gray-dark {
-        border-color: #38403B;
+        border-color: #38403b;
     }
     .sm\:border-gray-darker {
         border-color: #2f3230;
@@ -5767,7 +5818,7 @@ header .btn:hover {
         border-color: #1d1d1d;
     }
     .sm\:border-orange {
-        border-color: #F29057;
+        border-color: #f29057;
     }
     .sm\:hover\:border-transparent:hover {
         border-color: transparent;
@@ -5779,19 +5830,19 @@ header .btn:hover {
         border-color: #fff;
     }
     .sm\:hover\:border-white-faded:hover {
-        border-color: #FEFEFC;
+        border-color: #fefefc;
     }
     .sm\:hover\:border-blue-light:hover {
-        border-color: #37B5CB;
+        border-color: #37b5cb;
     }
     .sm\:hover\:border-green:hover {
-        border-color: #33D7B5;
+        border-color: #33d7b5;
     }
     .sm\:hover\:border-gray-light:hover {
-        border-color: #4B5750;
+        border-color: #4b5750;
     }
     .sm\:hover\:border-gray-dark:hover {
-        border-color: #38403B;
+        border-color: #38403b;
     }
     .sm\:hover\:border-gray-darker:hover {
         border-color: #2f3230;
@@ -5800,7 +5851,7 @@ header .btn:hover {
         border-color: #1d1d1d;
     }
     .sm\:hover\:border-orange:hover {
-        border-color: #F29057;
+        border-color: #f29057;
     }
     .sm\:focus\:border-transparent:focus {
         border-color: transparent;
@@ -5812,19 +5863,19 @@ header .btn:hover {
         border-color: #fff;
     }
     .sm\:focus\:border-white-faded:focus {
-        border-color: #FEFEFC;
+        border-color: #fefefc;
     }
     .sm\:focus\:border-blue-light:focus {
-        border-color: #37B5CB;
+        border-color: #37b5cb;
     }
     .sm\:focus\:border-green:focus {
-        border-color: #33D7B5;
+        border-color: #33d7b5;
     }
     .sm\:focus\:border-gray-light:focus {
-        border-color: #4B5750;
+        border-color: #4b5750;
     }
     .sm\:focus\:border-gray-dark:focus {
-        border-color: #38403B;
+        border-color: #38403b;
     }
     .sm\:focus\:border-gray-darker:focus {
         border-color: #2f3230;
@@ -5833,7 +5884,7 @@ header .btn:hover {
         border-color: #1d1d1d;
     }
     .sm\:focus\:border-orange:focus {
-        border-color: #F29057;
+        border-color: #f29057;
     }
     .sm\:rounded-none {
         border-radius: 0;
@@ -8160,79 +8211,79 @@ header .btn:hover {
         color: #fff;
     }
     .sm\:placeholder-white-faded::-webkit-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .sm\:placeholder-white-faded::-moz-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .sm\:placeholder-white-faded:-ms-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .sm\:placeholder-white-faded::-ms-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .sm\:placeholder-white-faded::placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .sm\:placeholder-blue-light::-webkit-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .sm\:placeholder-blue-light::-moz-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .sm\:placeholder-blue-light:-ms-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .sm\:placeholder-blue-light::-ms-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .sm\:placeholder-blue-light::placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .sm\:placeholder-green::-webkit-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .sm\:placeholder-green::-moz-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .sm\:placeholder-green:-ms-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .sm\:placeholder-green::-ms-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .sm\:placeholder-green::placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .sm\:placeholder-gray-light::-webkit-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .sm\:placeholder-gray-light::-moz-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .sm\:placeholder-gray-light:-ms-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .sm\:placeholder-gray-light::-ms-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .sm\:placeholder-gray-light::placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .sm\:placeholder-gray-dark::-webkit-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .sm\:placeholder-gray-dark::-moz-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .sm\:placeholder-gray-dark:-ms-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .sm\:placeholder-gray-dark::-ms-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .sm\:placeholder-gray-dark::placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .sm\:placeholder-gray-darker::-webkit-input-placeholder {
         color: #2f3230;
@@ -8265,19 +8316,19 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .sm\:placeholder-orange::-webkit-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .sm\:placeholder-orange::-moz-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .sm\:placeholder-orange:-ms-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .sm\:placeholder-orange::-ms-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .sm\:placeholder-orange::placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .sm\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
         color: transparent;
@@ -8325,79 +8376,79 @@ header .btn:hover {
         color: #fff;
     }
     .sm\:focus\:placeholder-white-faded:focus::-webkit-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .sm\:focus\:placeholder-white-faded:focus::-moz-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .sm\:focus\:placeholder-white-faded:focus:-ms-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .sm\:focus\:placeholder-white-faded:focus::-ms-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .sm\:focus\:placeholder-white-faded:focus::placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .sm\:focus\:placeholder-blue-light:focus::-webkit-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .sm\:focus\:placeholder-blue-light:focus::-moz-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .sm\:focus\:placeholder-blue-light:focus:-ms-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .sm\:focus\:placeholder-blue-light:focus::-ms-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .sm\:focus\:placeholder-blue-light:focus::placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .sm\:focus\:placeholder-green:focus::-webkit-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .sm\:focus\:placeholder-green:focus::-moz-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .sm\:focus\:placeholder-green:focus:-ms-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .sm\:focus\:placeholder-green:focus::-ms-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .sm\:focus\:placeholder-green:focus::placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .sm\:focus\:placeholder-gray-light:focus::-webkit-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .sm\:focus\:placeholder-gray-light:focus::-moz-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .sm\:focus\:placeholder-gray-light:focus:-ms-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .sm\:focus\:placeholder-gray-light:focus::-ms-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .sm\:focus\:placeholder-gray-light:focus::placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .sm\:focus\:placeholder-gray-dark:focus::-webkit-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .sm\:focus\:placeholder-gray-dark:focus::-moz-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .sm\:focus\:placeholder-gray-dark:focus:-ms-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .sm\:focus\:placeholder-gray-dark:focus::-ms-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .sm\:focus\:placeholder-gray-dark:focus::placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .sm\:focus\:placeholder-gray-darker:focus::-webkit-input-placeholder {
         color: #2f3230;
@@ -8430,19 +8481,19 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .sm\:focus\:placeholder-orange:focus::-webkit-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .sm\:focus\:placeholder-orange:focus::-moz-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .sm\:focus\:placeholder-orange:focus:-ms-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .sm\:focus\:placeholder-orange:focus::-ms-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .sm\:focus\:placeholder-orange:focus::placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .sm\:pointer-events-none {
         pointer-events: none;
@@ -8645,19 +8696,19 @@ header .btn:hover {
         color: #fff;
     }
     .sm\:text-white-faded {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .sm\:text-blue-light {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .sm\:text-green {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .sm\:text-gray-light {
-        color: #4B5750;
+        color: #4b5750;
     }
     .sm\:text-gray-dark {
-        color: #38403B;
+        color: #38403b;
     }
     .sm\:text-gray-darker {
         color: #2f3230;
@@ -8666,7 +8717,7 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .sm\:text-orange {
-        color: #F29057;
+        color: #f29057;
     }
     .sm\:hover\:text-transparent:hover {
         color: transparent;
@@ -8678,19 +8729,19 @@ header .btn:hover {
         color: #fff;
     }
     .sm\:hover\:text-white-faded:hover {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .sm\:hover\:text-blue-light:hover {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .sm\:hover\:text-green:hover {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .sm\:hover\:text-gray-light:hover {
-        color: #4B5750;
+        color: #4b5750;
     }
     .sm\:hover\:text-gray-dark:hover {
-        color: #38403B;
+        color: #38403b;
     }
     .sm\:hover\:text-gray-darker:hover {
         color: #2f3230;
@@ -8699,7 +8750,7 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .sm\:hover\:text-orange:hover {
-        color: #F29057;
+        color: #f29057;
     }
     .sm\:focus\:text-transparent:focus {
         color: transparent;
@@ -8711,19 +8762,19 @@ header .btn:hover {
         color: #fff;
     }
     .sm\:focus\:text-white-faded:focus {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .sm\:focus\:text-blue-light:focus {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .sm\:focus\:text-green:focus {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .sm\:focus\:text-gray-light:focus {
-        color: #4B5750;
+        color: #4b5750;
     }
     .sm\:focus\:text-gray-dark:focus {
-        color: #38403B;
+        color: #38403b;
     }
     .sm\:focus\:text-gray-darker:focus {
         color: #2f3230;
@@ -8732,7 +8783,7 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .sm\:focus\:text-orange:focus {
-        color: #F29057;
+        color: #f29057;
     }
     .sm\:text-xs {
         font-size: 0.75rem;
@@ -9150,19 +9201,19 @@ header .btn:hover {
         background-color: #fff;
     }
     .md\:bg-white-faded {
-        background-color: #FEFEFC;
+        background-color: #fefefc;
     }
     .md\:bg-blue-light {
-        background-color: #37B5CB;
+        background-color: #37b5cb;
     }
     .md\:bg-green {
-        background-color: #33D7B5;
+        background-color: #33d7b5;
     }
     .md\:bg-gray-light {
-        background-color: #4B5750;
+        background-color: #4b5750;
     }
     .md\:bg-gray-dark {
-        background-color: #38403B;
+        background-color: #38403b;
     }
     .md\:bg-gray-darker {
         background-color: #2f3230;
@@ -9171,7 +9222,7 @@ header .btn:hover {
         background-color: #1d1d1d;
     }
     .md\:bg-orange {
-        background-color: #F29057;
+        background-color: #f29057;
     }
     .md\:hover\:bg-transparent:hover {
         background-color: transparent;
@@ -9183,19 +9234,19 @@ header .btn:hover {
         background-color: #fff;
     }
     .md\:hover\:bg-white-faded:hover {
-        background-color: #FEFEFC;
+        background-color: #fefefc;
     }
     .md\:hover\:bg-blue-light:hover {
-        background-color: #37B5CB;
+        background-color: #37b5cb;
     }
     .md\:hover\:bg-green:hover {
-        background-color: #33D7B5;
+        background-color: #33d7b5;
     }
     .md\:hover\:bg-gray-light:hover {
-        background-color: #4B5750;
+        background-color: #4b5750;
     }
     .md\:hover\:bg-gray-dark:hover {
-        background-color: #38403B;
+        background-color: #38403b;
     }
     .md\:hover\:bg-gray-darker:hover {
         background-color: #2f3230;
@@ -9204,7 +9255,7 @@ header .btn:hover {
         background-color: #1d1d1d;
     }
     .md\:hover\:bg-orange:hover {
-        background-color: #F29057;
+        background-color: #f29057;
     }
     .md\:focus\:bg-transparent:focus {
         background-color: transparent;
@@ -9216,19 +9267,19 @@ header .btn:hover {
         background-color: #fff;
     }
     .md\:focus\:bg-white-faded:focus {
-        background-color: #FEFEFC;
+        background-color: #fefefc;
     }
     .md\:focus\:bg-blue-light:focus {
-        background-color: #37B5CB;
+        background-color: #37b5cb;
     }
     .md\:focus\:bg-green:focus {
-        background-color: #33D7B5;
+        background-color: #33d7b5;
     }
     .md\:focus\:bg-gray-light:focus {
-        background-color: #4B5750;
+        background-color: #4b5750;
     }
     .md\:focus\:bg-gray-dark:focus {
-        background-color: #38403B;
+        background-color: #38403b;
     }
     .md\:focus\:bg-gray-darker:focus {
         background-color: #2f3230;
@@ -9237,7 +9288,7 @@ header .btn:hover {
         background-color: #1d1d1d;
     }
     .md\:focus\:bg-orange:focus {
-        background-color: #F29057;
+        background-color: #f29057;
     }
     .md\:bg-bottom {
         background-position: bottom;
@@ -9309,19 +9360,19 @@ header .btn:hover {
         border-color: #fff;
     }
     .md\:border-white-faded {
-        border-color: #FEFEFC;
+        border-color: #fefefc;
     }
     .md\:border-blue-light {
-        border-color: #37B5CB;
+        border-color: #37b5cb;
     }
     .md\:border-green {
-        border-color: #33D7B5;
+        border-color: #33d7b5;
     }
     .md\:border-gray-light {
-        border-color: #4B5750;
+        border-color: #4b5750;
     }
     .md\:border-gray-dark {
-        border-color: #38403B;
+        border-color: #38403b;
     }
     .md\:border-gray-darker {
         border-color: #2f3230;
@@ -9330,7 +9381,7 @@ header .btn:hover {
         border-color: #1d1d1d;
     }
     .md\:border-orange {
-        border-color: #F29057;
+        border-color: #f29057;
     }
     .md\:hover\:border-transparent:hover {
         border-color: transparent;
@@ -9342,19 +9393,19 @@ header .btn:hover {
         border-color: #fff;
     }
     .md\:hover\:border-white-faded:hover {
-        border-color: #FEFEFC;
+        border-color: #fefefc;
     }
     .md\:hover\:border-blue-light:hover {
-        border-color: #37B5CB;
+        border-color: #37b5cb;
     }
     .md\:hover\:border-green:hover {
-        border-color: #33D7B5;
+        border-color: #33d7b5;
     }
     .md\:hover\:border-gray-light:hover {
-        border-color: #4B5750;
+        border-color: #4b5750;
     }
     .md\:hover\:border-gray-dark:hover {
-        border-color: #38403B;
+        border-color: #38403b;
     }
     .md\:hover\:border-gray-darker:hover {
         border-color: #2f3230;
@@ -9363,7 +9414,7 @@ header .btn:hover {
         border-color: #1d1d1d;
     }
     .md\:hover\:border-orange:hover {
-        border-color: #F29057;
+        border-color: #f29057;
     }
     .md\:focus\:border-transparent:focus {
         border-color: transparent;
@@ -9375,19 +9426,19 @@ header .btn:hover {
         border-color: #fff;
     }
     .md\:focus\:border-white-faded:focus {
-        border-color: #FEFEFC;
+        border-color: #fefefc;
     }
     .md\:focus\:border-blue-light:focus {
-        border-color: #37B5CB;
+        border-color: #37b5cb;
     }
     .md\:focus\:border-green:focus {
-        border-color: #33D7B5;
+        border-color: #33d7b5;
     }
     .md\:focus\:border-gray-light:focus {
-        border-color: #4B5750;
+        border-color: #4b5750;
     }
     .md\:focus\:border-gray-dark:focus {
-        border-color: #38403B;
+        border-color: #38403b;
     }
     .md\:focus\:border-gray-darker:focus {
         border-color: #2f3230;
@@ -9396,7 +9447,7 @@ header .btn:hover {
         border-color: #1d1d1d;
     }
     .md\:focus\:border-orange:focus {
-        border-color: #F29057;
+        border-color: #f29057;
     }
     .md\:rounded-none {
         border-radius: 0;
@@ -11723,79 +11774,79 @@ header .btn:hover {
         color: #fff;
     }
     .md\:placeholder-white-faded::-webkit-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .md\:placeholder-white-faded::-moz-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .md\:placeholder-white-faded:-ms-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .md\:placeholder-white-faded::-ms-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .md\:placeholder-white-faded::placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .md\:placeholder-blue-light::-webkit-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .md\:placeholder-blue-light::-moz-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .md\:placeholder-blue-light:-ms-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .md\:placeholder-blue-light::-ms-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .md\:placeholder-blue-light::placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .md\:placeholder-green::-webkit-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .md\:placeholder-green::-moz-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .md\:placeholder-green:-ms-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .md\:placeholder-green::-ms-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .md\:placeholder-green::placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .md\:placeholder-gray-light::-webkit-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .md\:placeholder-gray-light::-moz-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .md\:placeholder-gray-light:-ms-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .md\:placeholder-gray-light::-ms-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .md\:placeholder-gray-light::placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .md\:placeholder-gray-dark::-webkit-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .md\:placeholder-gray-dark::-moz-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .md\:placeholder-gray-dark:-ms-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .md\:placeholder-gray-dark::-ms-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .md\:placeholder-gray-dark::placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .md\:placeholder-gray-darker::-webkit-input-placeholder {
         color: #2f3230;
@@ -11828,19 +11879,19 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .md\:placeholder-orange::-webkit-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .md\:placeholder-orange::-moz-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .md\:placeholder-orange:-ms-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .md\:placeholder-orange::-ms-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .md\:placeholder-orange::placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .md\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
         color: transparent;
@@ -11888,79 +11939,79 @@ header .btn:hover {
         color: #fff;
     }
     .md\:focus\:placeholder-white-faded:focus::-webkit-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .md\:focus\:placeholder-white-faded:focus::-moz-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .md\:focus\:placeholder-white-faded:focus:-ms-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .md\:focus\:placeholder-white-faded:focus::-ms-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .md\:focus\:placeholder-white-faded:focus::placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .md\:focus\:placeholder-blue-light:focus::-webkit-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .md\:focus\:placeholder-blue-light:focus::-moz-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .md\:focus\:placeholder-blue-light:focus:-ms-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .md\:focus\:placeholder-blue-light:focus::-ms-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .md\:focus\:placeholder-blue-light:focus::placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .md\:focus\:placeholder-green:focus::-webkit-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .md\:focus\:placeholder-green:focus::-moz-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .md\:focus\:placeholder-green:focus:-ms-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .md\:focus\:placeholder-green:focus::-ms-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .md\:focus\:placeholder-green:focus::placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .md\:focus\:placeholder-gray-light:focus::-webkit-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .md\:focus\:placeholder-gray-light:focus::-moz-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .md\:focus\:placeholder-gray-light:focus:-ms-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .md\:focus\:placeholder-gray-light:focus::-ms-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .md\:focus\:placeholder-gray-light:focus::placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .md\:focus\:placeholder-gray-dark:focus::-webkit-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .md\:focus\:placeholder-gray-dark:focus::-moz-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .md\:focus\:placeholder-gray-dark:focus:-ms-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .md\:focus\:placeholder-gray-dark:focus::-ms-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .md\:focus\:placeholder-gray-dark:focus::placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .md\:focus\:placeholder-gray-darker:focus::-webkit-input-placeholder {
         color: #2f3230;
@@ -11993,19 +12044,19 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .md\:focus\:placeholder-orange:focus::-webkit-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .md\:focus\:placeholder-orange:focus::-moz-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .md\:focus\:placeholder-orange:focus:-ms-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .md\:focus\:placeholder-orange:focus::-ms-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .md\:focus\:placeholder-orange:focus::placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .md\:pointer-events-none {
         pointer-events: none;
@@ -12208,19 +12259,19 @@ header .btn:hover {
         color: #fff;
     }
     .md\:text-white-faded {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .md\:text-blue-light {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .md\:text-green {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .md\:text-gray-light {
-        color: #4B5750;
+        color: #4b5750;
     }
     .md\:text-gray-dark {
-        color: #38403B;
+        color: #38403b;
     }
     .md\:text-gray-darker {
         color: #2f3230;
@@ -12229,7 +12280,7 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .md\:text-orange {
-        color: #F29057;
+        color: #f29057;
     }
     .md\:hover\:text-transparent:hover {
         color: transparent;
@@ -12241,19 +12292,19 @@ header .btn:hover {
         color: #fff;
     }
     .md\:hover\:text-white-faded:hover {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .md\:hover\:text-blue-light:hover {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .md\:hover\:text-green:hover {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .md\:hover\:text-gray-light:hover {
-        color: #4B5750;
+        color: #4b5750;
     }
     .md\:hover\:text-gray-dark:hover {
-        color: #38403B;
+        color: #38403b;
     }
     .md\:hover\:text-gray-darker:hover {
         color: #2f3230;
@@ -12262,7 +12313,7 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .md\:hover\:text-orange:hover {
-        color: #F29057;
+        color: #f29057;
     }
     .md\:focus\:text-transparent:focus {
         color: transparent;
@@ -12274,19 +12325,19 @@ header .btn:hover {
         color: #fff;
     }
     .md\:focus\:text-white-faded:focus {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .md\:focus\:text-blue-light:focus {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .md\:focus\:text-green:focus {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .md\:focus\:text-gray-light:focus {
-        color: #4B5750;
+        color: #4b5750;
     }
     .md\:focus\:text-gray-dark:focus {
-        color: #38403B;
+        color: #38403b;
     }
     .md\:focus\:text-gray-darker:focus {
         color: #2f3230;
@@ -12295,7 +12346,7 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .md\:focus\:text-orange:focus {
-        color: #F29057;
+        color: #f29057;
     }
     .md\:text-xs {
         font-size: 0.75rem;
@@ -12713,19 +12764,19 @@ header .btn:hover {
         background-color: #fff;
     }
     .lg\:bg-white-faded {
-        background-color: #FEFEFC;
+        background-color: #fefefc;
     }
     .lg\:bg-blue-light {
-        background-color: #37B5CB;
+        background-color: #37b5cb;
     }
     .lg\:bg-green {
-        background-color: #33D7B5;
+        background-color: #33d7b5;
     }
     .lg\:bg-gray-light {
-        background-color: #4B5750;
+        background-color: #4b5750;
     }
     .lg\:bg-gray-dark {
-        background-color: #38403B;
+        background-color: #38403b;
     }
     .lg\:bg-gray-darker {
         background-color: #2f3230;
@@ -12734,7 +12785,7 @@ header .btn:hover {
         background-color: #1d1d1d;
     }
     .lg\:bg-orange {
-        background-color: #F29057;
+        background-color: #f29057;
     }
     .lg\:hover\:bg-transparent:hover {
         background-color: transparent;
@@ -12746,19 +12797,19 @@ header .btn:hover {
         background-color: #fff;
     }
     .lg\:hover\:bg-white-faded:hover {
-        background-color: #FEFEFC;
+        background-color: #fefefc;
     }
     .lg\:hover\:bg-blue-light:hover {
-        background-color: #37B5CB;
+        background-color: #37b5cb;
     }
     .lg\:hover\:bg-green:hover {
-        background-color: #33D7B5;
+        background-color: #33d7b5;
     }
     .lg\:hover\:bg-gray-light:hover {
-        background-color: #4B5750;
+        background-color: #4b5750;
     }
     .lg\:hover\:bg-gray-dark:hover {
-        background-color: #38403B;
+        background-color: #38403b;
     }
     .lg\:hover\:bg-gray-darker:hover {
         background-color: #2f3230;
@@ -12767,7 +12818,7 @@ header .btn:hover {
         background-color: #1d1d1d;
     }
     .lg\:hover\:bg-orange:hover {
-        background-color: #F29057;
+        background-color: #f29057;
     }
     .lg\:focus\:bg-transparent:focus {
         background-color: transparent;
@@ -12779,19 +12830,19 @@ header .btn:hover {
         background-color: #fff;
     }
     .lg\:focus\:bg-white-faded:focus {
-        background-color: #FEFEFC;
+        background-color: #fefefc;
     }
     .lg\:focus\:bg-blue-light:focus {
-        background-color: #37B5CB;
+        background-color: #37b5cb;
     }
     .lg\:focus\:bg-green:focus {
-        background-color: #33D7B5;
+        background-color: #33d7b5;
     }
     .lg\:focus\:bg-gray-light:focus {
-        background-color: #4B5750;
+        background-color: #4b5750;
     }
     .lg\:focus\:bg-gray-dark:focus {
-        background-color: #38403B;
+        background-color: #38403b;
     }
     .lg\:focus\:bg-gray-darker:focus {
         background-color: #2f3230;
@@ -12800,7 +12851,7 @@ header .btn:hover {
         background-color: #1d1d1d;
     }
     .lg\:focus\:bg-orange:focus {
-        background-color: #F29057;
+        background-color: #f29057;
     }
     .lg\:bg-bottom {
         background-position: bottom;
@@ -12872,19 +12923,19 @@ header .btn:hover {
         border-color: #fff;
     }
     .lg\:border-white-faded {
-        border-color: #FEFEFC;
+        border-color: #fefefc;
     }
     .lg\:border-blue-light {
-        border-color: #37B5CB;
+        border-color: #37b5cb;
     }
     .lg\:border-green {
-        border-color: #33D7B5;
+        border-color: #33d7b5;
     }
     .lg\:border-gray-light {
-        border-color: #4B5750;
+        border-color: #4b5750;
     }
     .lg\:border-gray-dark {
-        border-color: #38403B;
+        border-color: #38403b;
     }
     .lg\:border-gray-darker {
         border-color: #2f3230;
@@ -12893,7 +12944,7 @@ header .btn:hover {
         border-color: #1d1d1d;
     }
     .lg\:border-orange {
-        border-color: #F29057;
+        border-color: #f29057;
     }
     .lg\:hover\:border-transparent:hover {
         border-color: transparent;
@@ -12905,19 +12956,19 @@ header .btn:hover {
         border-color: #fff;
     }
     .lg\:hover\:border-white-faded:hover {
-        border-color: #FEFEFC;
+        border-color: #fefefc;
     }
     .lg\:hover\:border-blue-light:hover {
-        border-color: #37B5CB;
+        border-color: #37b5cb;
     }
     .lg\:hover\:border-green:hover {
-        border-color: #33D7B5;
+        border-color: #33d7b5;
     }
     .lg\:hover\:border-gray-light:hover {
-        border-color: #4B5750;
+        border-color: #4b5750;
     }
     .lg\:hover\:border-gray-dark:hover {
-        border-color: #38403B;
+        border-color: #38403b;
     }
     .lg\:hover\:border-gray-darker:hover {
         border-color: #2f3230;
@@ -12926,7 +12977,7 @@ header .btn:hover {
         border-color: #1d1d1d;
     }
     .lg\:hover\:border-orange:hover {
-        border-color: #F29057;
+        border-color: #f29057;
     }
     .lg\:focus\:border-transparent:focus {
         border-color: transparent;
@@ -12938,19 +12989,19 @@ header .btn:hover {
         border-color: #fff;
     }
     .lg\:focus\:border-white-faded:focus {
-        border-color: #FEFEFC;
+        border-color: #fefefc;
     }
     .lg\:focus\:border-blue-light:focus {
-        border-color: #37B5CB;
+        border-color: #37b5cb;
     }
     .lg\:focus\:border-green:focus {
-        border-color: #33D7B5;
+        border-color: #33d7b5;
     }
     .lg\:focus\:border-gray-light:focus {
-        border-color: #4B5750;
+        border-color: #4b5750;
     }
     .lg\:focus\:border-gray-dark:focus {
-        border-color: #38403B;
+        border-color: #38403b;
     }
     .lg\:focus\:border-gray-darker:focus {
         border-color: #2f3230;
@@ -12959,7 +13010,7 @@ header .btn:hover {
         border-color: #1d1d1d;
     }
     .lg\:focus\:border-orange:focus {
-        border-color: #F29057;
+        border-color: #f29057;
     }
     .lg\:rounded-none {
         border-radius: 0;
@@ -15286,79 +15337,79 @@ header .btn:hover {
         color: #fff;
     }
     .lg\:placeholder-white-faded::-webkit-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .lg\:placeholder-white-faded::-moz-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .lg\:placeholder-white-faded:-ms-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .lg\:placeholder-white-faded::-ms-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .lg\:placeholder-white-faded::placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .lg\:placeholder-blue-light::-webkit-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .lg\:placeholder-blue-light::-moz-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .lg\:placeholder-blue-light:-ms-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .lg\:placeholder-blue-light::-ms-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .lg\:placeholder-blue-light::placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .lg\:placeholder-green::-webkit-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .lg\:placeholder-green::-moz-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .lg\:placeholder-green:-ms-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .lg\:placeholder-green::-ms-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .lg\:placeholder-green::placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .lg\:placeholder-gray-light::-webkit-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .lg\:placeholder-gray-light::-moz-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .lg\:placeholder-gray-light:-ms-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .lg\:placeholder-gray-light::-ms-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .lg\:placeholder-gray-light::placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .lg\:placeholder-gray-dark::-webkit-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .lg\:placeholder-gray-dark::-moz-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .lg\:placeholder-gray-dark:-ms-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .lg\:placeholder-gray-dark::-ms-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .lg\:placeholder-gray-dark::placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .lg\:placeholder-gray-darker::-webkit-input-placeholder {
         color: #2f3230;
@@ -15391,19 +15442,19 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .lg\:placeholder-orange::-webkit-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .lg\:placeholder-orange::-moz-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .lg\:placeholder-orange:-ms-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .lg\:placeholder-orange::-ms-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .lg\:placeholder-orange::placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .lg\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
         color: transparent;
@@ -15451,79 +15502,79 @@ header .btn:hover {
         color: #fff;
     }
     .lg\:focus\:placeholder-white-faded:focus::-webkit-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .lg\:focus\:placeholder-white-faded:focus::-moz-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .lg\:focus\:placeholder-white-faded:focus:-ms-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .lg\:focus\:placeholder-white-faded:focus::-ms-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .lg\:focus\:placeholder-white-faded:focus::placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .lg\:focus\:placeholder-blue-light:focus::-webkit-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .lg\:focus\:placeholder-blue-light:focus::-moz-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .lg\:focus\:placeholder-blue-light:focus:-ms-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .lg\:focus\:placeholder-blue-light:focus::-ms-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .lg\:focus\:placeholder-blue-light:focus::placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .lg\:focus\:placeholder-green:focus::-webkit-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .lg\:focus\:placeholder-green:focus::-moz-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .lg\:focus\:placeholder-green:focus:-ms-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .lg\:focus\:placeholder-green:focus::-ms-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .lg\:focus\:placeholder-green:focus::placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .lg\:focus\:placeholder-gray-light:focus::-webkit-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .lg\:focus\:placeholder-gray-light:focus::-moz-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .lg\:focus\:placeholder-gray-light:focus:-ms-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .lg\:focus\:placeholder-gray-light:focus::-ms-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .lg\:focus\:placeholder-gray-light:focus::placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .lg\:focus\:placeholder-gray-dark:focus::-webkit-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .lg\:focus\:placeholder-gray-dark:focus::-moz-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .lg\:focus\:placeholder-gray-dark:focus:-ms-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .lg\:focus\:placeholder-gray-dark:focus::-ms-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .lg\:focus\:placeholder-gray-dark:focus::placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .lg\:focus\:placeholder-gray-darker:focus::-webkit-input-placeholder {
         color: #2f3230;
@@ -15556,19 +15607,19 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .lg\:focus\:placeholder-orange:focus::-webkit-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .lg\:focus\:placeholder-orange:focus::-moz-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .lg\:focus\:placeholder-orange:focus:-ms-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .lg\:focus\:placeholder-orange:focus::-ms-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .lg\:focus\:placeholder-orange:focus::placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .lg\:pointer-events-none {
         pointer-events: none;
@@ -15771,19 +15822,19 @@ header .btn:hover {
         color: #fff;
     }
     .lg\:text-white-faded {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .lg\:text-blue-light {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .lg\:text-green {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .lg\:text-gray-light {
-        color: #4B5750;
+        color: #4b5750;
     }
     .lg\:text-gray-dark {
-        color: #38403B;
+        color: #38403b;
     }
     .lg\:text-gray-darker {
         color: #2f3230;
@@ -15792,7 +15843,7 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .lg\:text-orange {
-        color: #F29057;
+        color: #f29057;
     }
     .lg\:hover\:text-transparent:hover {
         color: transparent;
@@ -15804,19 +15855,19 @@ header .btn:hover {
         color: #fff;
     }
     .lg\:hover\:text-white-faded:hover {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .lg\:hover\:text-blue-light:hover {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .lg\:hover\:text-green:hover {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .lg\:hover\:text-gray-light:hover {
-        color: #4B5750;
+        color: #4b5750;
     }
     .lg\:hover\:text-gray-dark:hover {
-        color: #38403B;
+        color: #38403b;
     }
     .lg\:hover\:text-gray-darker:hover {
         color: #2f3230;
@@ -15825,7 +15876,7 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .lg\:hover\:text-orange:hover {
-        color: #F29057;
+        color: #f29057;
     }
     .lg\:focus\:text-transparent:focus {
         color: transparent;
@@ -15837,19 +15888,19 @@ header .btn:hover {
         color: #fff;
     }
     .lg\:focus\:text-white-faded:focus {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .lg\:focus\:text-blue-light:focus {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .lg\:focus\:text-green:focus {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .lg\:focus\:text-gray-light:focus {
-        color: #4B5750;
+        color: #4b5750;
     }
     .lg\:focus\:text-gray-dark:focus {
-        color: #38403B;
+        color: #38403b;
     }
     .lg\:focus\:text-gray-darker:focus {
         color: #2f3230;
@@ -15858,7 +15909,7 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .lg\:focus\:text-orange:focus {
-        color: #F29057;
+        color: #f29057;
     }
     .lg\:text-xs {
         font-size: 0.75rem;
@@ -16276,19 +16327,19 @@ header .btn:hover {
         background-color: #fff;
     }
     .xl\:bg-white-faded {
-        background-color: #FEFEFC;
+        background-color: #fefefc;
     }
     .xl\:bg-blue-light {
-        background-color: #37B5CB;
+        background-color: #37b5cb;
     }
     .xl\:bg-green {
-        background-color: #33D7B5;
+        background-color: #33d7b5;
     }
     .xl\:bg-gray-light {
-        background-color: #4B5750;
+        background-color: #4b5750;
     }
     .xl\:bg-gray-dark {
-        background-color: #38403B;
+        background-color: #38403b;
     }
     .xl\:bg-gray-darker {
         background-color: #2f3230;
@@ -16297,7 +16348,7 @@ header .btn:hover {
         background-color: #1d1d1d;
     }
     .xl\:bg-orange {
-        background-color: #F29057;
+        background-color: #f29057;
     }
     .xl\:hover\:bg-transparent:hover {
         background-color: transparent;
@@ -16309,19 +16360,19 @@ header .btn:hover {
         background-color: #fff;
     }
     .xl\:hover\:bg-white-faded:hover {
-        background-color: #FEFEFC;
+        background-color: #fefefc;
     }
     .xl\:hover\:bg-blue-light:hover {
-        background-color: #37B5CB;
+        background-color: #37b5cb;
     }
     .xl\:hover\:bg-green:hover {
-        background-color: #33D7B5;
+        background-color: #33d7b5;
     }
     .xl\:hover\:bg-gray-light:hover {
-        background-color: #4B5750;
+        background-color: #4b5750;
     }
     .xl\:hover\:bg-gray-dark:hover {
-        background-color: #38403B;
+        background-color: #38403b;
     }
     .xl\:hover\:bg-gray-darker:hover {
         background-color: #2f3230;
@@ -16330,7 +16381,7 @@ header .btn:hover {
         background-color: #1d1d1d;
     }
     .xl\:hover\:bg-orange:hover {
-        background-color: #F29057;
+        background-color: #f29057;
     }
     .xl\:focus\:bg-transparent:focus {
         background-color: transparent;
@@ -16342,19 +16393,19 @@ header .btn:hover {
         background-color: #fff;
     }
     .xl\:focus\:bg-white-faded:focus {
-        background-color: #FEFEFC;
+        background-color: #fefefc;
     }
     .xl\:focus\:bg-blue-light:focus {
-        background-color: #37B5CB;
+        background-color: #37b5cb;
     }
     .xl\:focus\:bg-green:focus {
-        background-color: #33D7B5;
+        background-color: #33d7b5;
     }
     .xl\:focus\:bg-gray-light:focus {
-        background-color: #4B5750;
+        background-color: #4b5750;
     }
     .xl\:focus\:bg-gray-dark:focus {
-        background-color: #38403B;
+        background-color: #38403b;
     }
     .xl\:focus\:bg-gray-darker:focus {
         background-color: #2f3230;
@@ -16363,7 +16414,7 @@ header .btn:hover {
         background-color: #1d1d1d;
     }
     .xl\:focus\:bg-orange:focus {
-        background-color: #F29057;
+        background-color: #f29057;
     }
     .xl\:bg-bottom {
         background-position: bottom;
@@ -16435,19 +16486,19 @@ header .btn:hover {
         border-color: #fff;
     }
     .xl\:border-white-faded {
-        border-color: #FEFEFC;
+        border-color: #fefefc;
     }
     .xl\:border-blue-light {
-        border-color: #37B5CB;
+        border-color: #37b5cb;
     }
     .xl\:border-green {
-        border-color: #33D7B5;
+        border-color: #33d7b5;
     }
     .xl\:border-gray-light {
-        border-color: #4B5750;
+        border-color: #4b5750;
     }
     .xl\:border-gray-dark {
-        border-color: #38403B;
+        border-color: #38403b;
     }
     .xl\:border-gray-darker {
         border-color: #2f3230;
@@ -16456,7 +16507,7 @@ header .btn:hover {
         border-color: #1d1d1d;
     }
     .xl\:border-orange {
-        border-color: #F29057;
+        border-color: #f29057;
     }
     .xl\:hover\:border-transparent:hover {
         border-color: transparent;
@@ -16468,19 +16519,19 @@ header .btn:hover {
         border-color: #fff;
     }
     .xl\:hover\:border-white-faded:hover {
-        border-color: #FEFEFC;
+        border-color: #fefefc;
     }
     .xl\:hover\:border-blue-light:hover {
-        border-color: #37B5CB;
+        border-color: #37b5cb;
     }
     .xl\:hover\:border-green:hover {
-        border-color: #33D7B5;
+        border-color: #33d7b5;
     }
     .xl\:hover\:border-gray-light:hover {
-        border-color: #4B5750;
+        border-color: #4b5750;
     }
     .xl\:hover\:border-gray-dark:hover {
-        border-color: #38403B;
+        border-color: #38403b;
     }
     .xl\:hover\:border-gray-darker:hover {
         border-color: #2f3230;
@@ -16489,7 +16540,7 @@ header .btn:hover {
         border-color: #1d1d1d;
     }
     .xl\:hover\:border-orange:hover {
-        border-color: #F29057;
+        border-color: #f29057;
     }
     .xl\:focus\:border-transparent:focus {
         border-color: transparent;
@@ -16501,19 +16552,19 @@ header .btn:hover {
         border-color: #fff;
     }
     .xl\:focus\:border-white-faded:focus {
-        border-color: #FEFEFC;
+        border-color: #fefefc;
     }
     .xl\:focus\:border-blue-light:focus {
-        border-color: #37B5CB;
+        border-color: #37b5cb;
     }
     .xl\:focus\:border-green:focus {
-        border-color: #33D7B5;
+        border-color: #33d7b5;
     }
     .xl\:focus\:border-gray-light:focus {
-        border-color: #4B5750;
+        border-color: #4b5750;
     }
     .xl\:focus\:border-gray-dark:focus {
-        border-color: #38403B;
+        border-color: #38403b;
     }
     .xl\:focus\:border-gray-darker:focus {
         border-color: #2f3230;
@@ -16522,7 +16573,7 @@ header .btn:hover {
         border-color: #1d1d1d;
     }
     .xl\:focus\:border-orange:focus {
-        border-color: #F29057;
+        border-color: #f29057;
     }
     .xl\:rounded-none {
         border-radius: 0;
@@ -18849,79 +18900,79 @@ header .btn:hover {
         color: #fff;
     }
     .xl\:placeholder-white-faded::-webkit-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .xl\:placeholder-white-faded::-moz-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .xl\:placeholder-white-faded:-ms-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .xl\:placeholder-white-faded::-ms-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .xl\:placeholder-white-faded::placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .xl\:placeholder-blue-light::-webkit-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .xl\:placeholder-blue-light::-moz-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .xl\:placeholder-blue-light:-ms-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .xl\:placeholder-blue-light::-ms-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .xl\:placeholder-blue-light::placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .xl\:placeholder-green::-webkit-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .xl\:placeholder-green::-moz-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .xl\:placeholder-green:-ms-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .xl\:placeholder-green::-ms-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .xl\:placeholder-green::placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .xl\:placeholder-gray-light::-webkit-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .xl\:placeholder-gray-light::-moz-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .xl\:placeholder-gray-light:-ms-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .xl\:placeholder-gray-light::-ms-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .xl\:placeholder-gray-light::placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .xl\:placeholder-gray-dark::-webkit-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .xl\:placeholder-gray-dark::-moz-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .xl\:placeholder-gray-dark:-ms-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .xl\:placeholder-gray-dark::-ms-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .xl\:placeholder-gray-dark::placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .xl\:placeholder-gray-darker::-webkit-input-placeholder {
         color: #2f3230;
@@ -18954,19 +19005,19 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .xl\:placeholder-orange::-webkit-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .xl\:placeholder-orange::-moz-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .xl\:placeholder-orange:-ms-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .xl\:placeholder-orange::-ms-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .xl\:placeholder-orange::placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .xl\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
         color: transparent;
@@ -19014,79 +19065,79 @@ header .btn:hover {
         color: #fff;
     }
     .xl\:focus\:placeholder-white-faded:focus::-webkit-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .xl\:focus\:placeholder-white-faded:focus::-moz-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .xl\:focus\:placeholder-white-faded:focus:-ms-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .xl\:focus\:placeholder-white-faded:focus::-ms-input-placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .xl\:focus\:placeholder-white-faded:focus::placeholder {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .xl\:focus\:placeholder-blue-light:focus::-webkit-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .xl\:focus\:placeholder-blue-light:focus::-moz-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .xl\:focus\:placeholder-blue-light:focus:-ms-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .xl\:focus\:placeholder-blue-light:focus::-ms-input-placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .xl\:focus\:placeholder-blue-light:focus::placeholder {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .xl\:focus\:placeholder-green:focus::-webkit-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .xl\:focus\:placeholder-green:focus::-moz-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .xl\:focus\:placeholder-green:focus:-ms-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .xl\:focus\:placeholder-green:focus::-ms-input-placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .xl\:focus\:placeholder-green:focus::placeholder {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .xl\:focus\:placeholder-gray-light:focus::-webkit-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .xl\:focus\:placeholder-gray-light:focus::-moz-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .xl\:focus\:placeholder-gray-light:focus:-ms-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .xl\:focus\:placeholder-gray-light:focus::-ms-input-placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .xl\:focus\:placeholder-gray-light:focus::placeholder {
-        color: #4B5750;
+        color: #4b5750;
     }
     .xl\:focus\:placeholder-gray-dark:focus::-webkit-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .xl\:focus\:placeholder-gray-dark:focus::-moz-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .xl\:focus\:placeholder-gray-dark:focus:-ms-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .xl\:focus\:placeholder-gray-dark:focus::-ms-input-placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .xl\:focus\:placeholder-gray-dark:focus::placeholder {
-        color: #38403B;
+        color: #38403b;
     }
     .xl\:focus\:placeholder-gray-darker:focus::-webkit-input-placeholder {
         color: #2f3230;
@@ -19119,19 +19170,19 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .xl\:focus\:placeholder-orange:focus::-webkit-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .xl\:focus\:placeholder-orange:focus::-moz-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .xl\:focus\:placeholder-orange:focus:-ms-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .xl\:focus\:placeholder-orange:focus::-ms-input-placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .xl\:focus\:placeholder-orange:focus::placeholder {
-        color: #F29057;
+        color: #f29057;
     }
     .xl\:pointer-events-none {
         pointer-events: none;
@@ -19334,19 +19385,19 @@ header .btn:hover {
         color: #fff;
     }
     .xl\:text-white-faded {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .xl\:text-blue-light {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .xl\:text-green {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .xl\:text-gray-light {
-        color: #4B5750;
+        color: #4b5750;
     }
     .xl\:text-gray-dark {
-        color: #38403B;
+        color: #38403b;
     }
     .xl\:text-gray-darker {
         color: #2f3230;
@@ -19355,7 +19406,7 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .xl\:text-orange {
-        color: #F29057;
+        color: #f29057;
     }
     .xl\:hover\:text-transparent:hover {
         color: transparent;
@@ -19367,19 +19418,19 @@ header .btn:hover {
         color: #fff;
     }
     .xl\:hover\:text-white-faded:hover {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .xl\:hover\:text-blue-light:hover {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .xl\:hover\:text-green:hover {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .xl\:hover\:text-gray-light:hover {
-        color: #4B5750;
+        color: #4b5750;
     }
     .xl\:hover\:text-gray-dark:hover {
-        color: #38403B;
+        color: #38403b;
     }
     .xl\:hover\:text-gray-darker:hover {
         color: #2f3230;
@@ -19388,7 +19439,7 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .xl\:hover\:text-orange:hover {
-        color: #F29057;
+        color: #f29057;
     }
     .xl\:focus\:text-transparent:focus {
         color: transparent;
@@ -19400,19 +19451,19 @@ header .btn:hover {
         color: #fff;
     }
     .xl\:focus\:text-white-faded:focus {
-        color: #FEFEFC;
+        color: #fefefc;
     }
     .xl\:focus\:text-blue-light:focus {
-        color: #37B5CB;
+        color: #37b5cb;
     }
     .xl\:focus\:text-green:focus {
-        color: #33D7B5;
+        color: #33d7b5;
     }
     .xl\:focus\:text-gray-light:focus {
-        color: #4B5750;
+        color: #4b5750;
     }
     .xl\:focus\:text-gray-dark:focus {
-        color: #38403B;
+        color: #38403b;
     }
     .xl\:focus\:text-gray-darker:focus {
         color: #2f3230;
@@ -19421,7 +19472,7 @@ header .btn:hover {
         color: #1d1d1d;
     }
     .xl\:focus\:text-orange:focus {
-        color: #F29057;
+        color: #f29057;
     }
     .xl\:text-xs {
         font-size: 0.75rem;
