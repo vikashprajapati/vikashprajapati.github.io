@@ -5537,7 +5537,7 @@ header .btn:hover {
         justify-content: center;
     }
     .profile{
-        margin: 40px 0 !important;
+        margin: 10px 0 !important;
     }
     .profile .user-img img{
         width: 120px;
@@ -5558,6 +5558,7 @@ header .btn:hover {
     .profile .bio{
         padding: 0 16px;
         font-size: 16px;
+        text-justify: distribute;
     }
 }
 
