@@ -5526,8 +5526,8 @@ header .btn:hover {
     .card{
         margin: 24px 0 !important;
     }
-    nav ul li{
-        display: none;
+    nav ul li a{
+        font-size: 14px !important;
     }
     .cover-content > .projects{ 
         margin: 60px 0 !important;
