@@ -39,8 +39,23 @@ nav {
 }
 
 .logo {
-    font-size: 2rem;
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    text-decoration: none;
+    display: block;
+}
+
+.logo-image {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.logo-link:hover .logo-image {
+    transform: scale(1.1);
 }
 
 nav ul {
@@ -71,25 +86,28 @@ nav ul li a:hover {
 
 .hero-content {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .hero h1 {
     font-size: 4rem;
     margin-bottom: 1rem;
     line-height: 1.2;
+    text-transform: uppercase;
 }
 
 .title {
     font-size: 2rem;
     color: var(--primary-color);
     margin-bottom: 1rem;
+    display: block;
 }
 
 .subtitle {
     font-size: 1.2rem;
     color: var(--text-gray);
     margin-bottom: 2rem;
+    display: block;
 }
 
 .highlight {
@@ -115,19 +133,32 @@ nav ul li a:hover {
 
 .social-links {
     display: flex;
-    gap: 1.5rem;
+    align-items: center;
+    gap: 2rem;
     margin-top: 2rem;
 }
 
 .social-links a {
     color: var(--text-light);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     transition: color 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-links a:hover {
     color: var(--primary-color);
     transform: translateY(-2px);
+}
+
+/* Update Kotlin icon styling */
+.fab.fa-kotlin {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23ffd700" d="M24 24H0V0h24L12 12z"/></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1em;
+    height: 1em;
 }
 
 /* About Section */
@@ -235,10 +266,18 @@ nav ul li a:hover {
     box-shadow: 0 5px 15px rgba(255, 215, 0, 0.1);
 }
 
-.skill-item i {
+.skill-item i,
+.skill-item .skill-icon {
     font-size: 2.5rem;
     color: var(--primary-color);
     margin-bottom: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+}
+
+.skill-icon {
+    filter: brightness(0) saturate(100%) invert(77%) sepia(83%) saturate(434%) hue-rotate(359deg) brightness(103%) contrast(107%);
 }
 
 /* Portfolio Section */
