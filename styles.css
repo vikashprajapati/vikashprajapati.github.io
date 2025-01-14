@@ -303,7 +303,6 @@ nav ul li a:hover {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
     transition: all 0.3s ease;
-    position: relative;
     background: var(--primary-gradient);
     -webkit-background-clip: text;
     background-clip: text;
@@ -312,6 +311,7 @@ nav ul li a:hover {
 
 .skill-item:hover i {
     transform: scale(1.1);
+    filter: drop-shadow(0 0 8px var(--hover-glow));
 }
 
 .kotlin-icon {
@@ -319,10 +319,7 @@ nav ul li a:hover {
     height: 2.5rem;
     margin-bottom: 1.5rem;
     transition: all 0.3s ease;
-    filter: none;
-    object-fit: contain;
-    display: block;
-    background: var(--primary-gradient);
+    background: linear-gradient(135deg, #64FFDA 0%, #7C4DFF 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -342,33 +339,52 @@ nav ul li a:hover {
 
 /* Colorful tech icons with new vibrant colors */
 .skill-item .fa-android {
-    color: #00E676; /* Bright green */
+    background: linear-gradient(135deg, #64FFDA 0%, #7C4DFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .skill-item .fa-java {
-    color: #448AFF; /* Electric blue */
+    background: linear-gradient(135deg, #64FFDA 0%, #7C4DFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .skill-item .fa-js {
-    color: #FF9100; /* Bright orange */
+    background: linear-gradient(135deg, #64FFDA 0%, #7C4DFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .skill-item .fa-react {
-    color: #00B0FF; /* Bright blue */
+    background: linear-gradient(135deg, #64FFDA 0%, #7C4DFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .skill-item .fa-node-js {
-    color: #69F0AE; /* Bright teal */
+    background: linear-gradient(135deg, #64FFDA 0%, #7C4DFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .skill-item .devicon-cplusplus-plain {
-    color: #7C4DFF; /* Bright purple */
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #64FFDA 0%, #7C4DFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .skill-item .fa-aws {
-    color: #FF4081; /* Bright pink */
+    background: linear-gradient(135deg, #64FFDA 0%, #7C4DFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Custom Kotlin icon */
@@ -694,4 +710,143 @@ nav ul li a:hover,
 .skill-item .fa-aws {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
+} 
+
+/* Enhanced Hover Effects */
+.skill-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.skill-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(100, 255, 218, 0.1) 0%, rgba(124, 77, 255, 0.1) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 15px;
+}
+
+.skill-item:hover::after {
+    opacity: 1;
+} 
+
+/* Common Card Styles */
+.card-base {
+    background-color: var(--card-background);
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.3),
+                -8px -8px 16px rgba(255, 255, 255, 0.03);
+}
+
+.card-base::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(100, 255, 218, 0.1) 0%, rgba(124, 77, 255, 0.1) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 15px;
+    pointer-events: none;
+}
+
+.card-base:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4),
+                0 0 15px var(--hover-glow);
+}
+
+.card-base:hover::after {
+    opacity: 1;
+}
+
+/* Apply card base to all card elements */
+.skill-item,
+.portfolio-item,
+.info-item {
+    @extend .card-base;
+}
+
+/* Portfolio Items */
+.portfolio-item {
+    padding: 0;
+}
+
+.portfolio-item .project-content {
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* Info Items */
+.info-item {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info-item i {
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* Skill Items */
+.skill-item {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-item i,
+.kotlin-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.skill-item:hover i,
+.skill-item:hover .kotlin-icon {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 8px var(--hover-glow));
+}
+
+.skill-item span {
+    position: relative;
+    z-index: 1;
+}
+
+/* Remove duplicate styles */
+.skill-item::before,
+.portfolio-item::before,
+.info-item::before {
+    display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-base {
+        box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.25),
+                    -6px -6px 12px rgba(255, 255, 255, 0.02);
+    }
+
+    .card-base:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35),
+                    0 0 12px var(--hover-glow);
+    }
 } 
