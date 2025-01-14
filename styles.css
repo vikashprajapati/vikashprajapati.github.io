@@ -165,11 +165,36 @@ nav ul li a:hover {
 
 /* Update Kotlin icon styling */
 .fab.fa-kotlin {
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23ffd700" d="M24 24H0V0h24L12 12z"/></svg>');
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%237F52FF' d='M0 24V0h24L12 12z M0 0L12 12 24 0M0 24L24 0'/%3E%3C/svg%3E");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 1em;
-    height: 1em;
+    background-position: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    -webkit-text-fill-color: initial;
+    color: transparent;
+}
+
+/* Remove conflicting styles */
+.skill-item .fab.fa-kotlin {
+    display: inline-block !important;
+}
+
+/* Hover effect for Kotlin icon */
+.skill-item:hover .fab.fa-kotlin {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+/* Remove old conflicting styles */
+.kotlin-icon {
+    display: none;
+}
+
+/* Remove the general icon hiding rule for this specific case */
+.skill-item .fab.fa-kotlin {
+    display: inline-block !important;
 }
 
 /* About Section */
@@ -254,150 +279,121 @@ nav ul li a:hover {
     background-color: var(--card-background);
 }
 
-.skills-container {
+.skills-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 2rem;
-    padding: 2rem;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 3rem auto;
+    padding: 0 2rem;
 }
 
 .skill-item {
+    background-color: var(--card-background);
+    border-radius: 12px;
+    padding: 2rem;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
-    background: var(--card-background);
-    border-radius: 15px;
-    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.3),
-                -8px -8px 16px rgba(255, 255, 255, 0.03);
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-}
-
-.skill-item::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-        45deg,
-        transparent 0%,
-        rgba(255, 255, 255, 0.03) 50%,
-        transparent 100%
-    );
-    pointer-events: none;
-}
-
-.skill-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4),
-                0 0 15px var(--hover-glow);
+    gap: 1rem;
 }
 
 .skill-item i {
     font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    transition: all 0.3s ease;
-    background: var(--primary-gradient);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+    transition: transform 0.3s ease;
+    -webkit-text-fill-color: initial;
+}
+
+/* Brand Colors for Icons */
+.skill-item .fa-android {
+    color: #3DDC84;
+}
+
+.skill-item .fa-java {
+    color: #007396;
+}
+
+.skill-item .fa-js {
+    color: #F7DF1E;
+}
+
+.skill-item .fa-react {
+    color: #61DAFB;
+}
+
+.skill-item .fa-node-js {
+    color: #339933;
+}
+
+.skill-item .devicon-cplusplus-plain {
+    color: #00599C;
+}
+
+.skill-item .fa-aws {
+    color: #FF9900;
+}
+
+.skill-item .fa-python {
+    color: #3776AB;
+}
+
+.skill-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
 
 .skill-item:hover i {
     transform: scale(1.1);
-    filter: drop-shadow(0 0 8px var(--hover-glow));
-}
-
-.kotlin-icon {
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-bottom: 1.5rem;
-    transition: all 0.3s ease;
-    background: linear-gradient(135deg, #64FFDA 0%, #7C4DFF 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.skill-item:hover .kotlin-icon {
-    transform: scale(1.1);
+    filter: brightness(1.2);
 }
 
 .skill-item span {
-    color: var(--text-light);
     font-size: 1rem;
-    font-weight: 500;
+    color: var(--text-light);
     text-align: center;
-    position: relative;
 }
 
-/* Colorful tech icons with new vibrant colors */
-.skill-item .fa-android {
-    background: linear-gradient(135deg, #64FFDA 0%, #7C4DFF 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+/* Remove all conflicting styles */
+.skill-icon,
+.fab,
+.fa-*,
+.devicon-* {
+    display: none !important;
 }
 
-.skill-item .fa-java {
-    background: linear-gradient(135deg, #64FFDA 0%, #7C4DFF 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+/* Remove gradient text from skill icons */
+.skill-item img {
+    -webkit-text-fill-color: initial;
+    background-clip: initial;
+    background: none;
 }
 
-.skill-item .fa-js {
-    background: linear-gradient(135deg, #64FFDA 0%, #7C4DFF 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        padding: 0 1rem;
+    }
+
+    .skill-item {
+        padding: 1.5rem;
+    }
+
+    .skill-item i {
+        font-size: 2rem;
+    }
 }
 
-.skill-item .fa-react {
-    background: linear-gradient(135deg, #64FFDA 0%, #7C4DFF 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.skill-item .fa-node-js {
-    background: linear-gradient(135deg, #64FFDA 0%, #7C4DFF 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.skill-item .devicon-cplusplus-plain {
-    background: linear-gradient(135deg, #64FFDA 0%, #7C4DFF 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.skill-item .fa-aws {
-    background: linear-gradient(135deg, #64FFDA 0%, #7C4DFF 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-/* Custom Kotlin icon */
-.fab.fa-kotlin,
-.skill-icon {
-    display: none;
-}
-
-/* Remove the outdated styles */
-.skill-item .fa-code,
-.skill-item .fa-cloud,
-.skill-icon {
-    display: none;
+@media (max-width: 480px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
 }
 
 /* Portfolio Section */
@@ -582,15 +578,11 @@ h2 {
         padding: 1.5rem;
     }
 
-    .skill-item i {
-        font-size: 2rem;
-        margin-bottom: 1rem;
-    }
-
+    .skill-item img,
     .kotlin-icon {
+        font-size: 2rem;
         width: 2rem;
         height: 2rem;
-        margin-bottom: 1rem;
     }
 
     .skill-item span {
@@ -691,7 +683,7 @@ nav ul li a:hover,
 }
 
 /* Update icon gradients */
-.skill-item i,
+.skill-item img,
 .kotlin-icon {
     background: var(--primary-gradient);
     -webkit-background-clip: text;
@@ -810,7 +802,7 @@ nav ul li a:hover,
     align-items: center;
 }
 
-.skill-item i,
+.skill-item img,
 .kotlin-icon {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
@@ -819,7 +811,7 @@ nav ul li a:hover,
     transition: all 0.3s ease;
 }
 
-.skill-item:hover i,
+.skill-item:hover img,
 .skill-item:hover .kotlin-icon {
     transform: scale(1.1);
     filter: drop-shadow(0 0 8px var(--hover-glow));
