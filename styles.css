@@ -1,9 +1,10 @@
 :root {
-    --primary-color: #ffd700;
+    --primary-color: #64FFDA; /* Bright mint */
     --background-dark: #1a1a1a;
     --text-light: #ffffff;
     --text-gray: #888888;
     --card-background: #2a2a2a;
+    --hover-glow: rgba(100, 255, 218, 0.2); /* Matching mint glow */
 }
 
 * {
@@ -128,7 +129,7 @@ nav ul li a:hover {
 
 .contact-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+    box-shadow: 0 5px 15px var(--hover-glow);
 }
 
 .social-links {
@@ -243,41 +244,126 @@ nav ul li a:hover {
     background-color: var(--card-background);
 }
 
-.skills-grid {
+.skills-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
-    margin-top: 3rem;
+    padding: 2rem;
     max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .skill-item {
-    background-color: var(--background-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 2rem;
+    background: var(--card-background);
     border-radius: 15px;
-    text-align: center;
-    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.3),
+                -8px -8px 16px rgba(255, 255, 255, 0.03);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.skill-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        45deg,
+        transparent 0%,
+        rgba(255, 255, 255, 0.03) 50%,
+        transparent 100%
+    );
+    pointer-events: none;
 }
 
 .skill-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(255, 215, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4),
+                0 6px 6px var(--hover-glow);
 }
 
-.skill-item i,
-.skill-item .skill-icon {
+.skill-item i {
     font-size: 2.5rem;
-    color: var(--primary-color);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.skill-item:hover i {
+    transform: scale(1.1);
+}
+
+.kotlin-icon {
     width: 2.5rem;
     height: 2.5rem;
-    display: inline-block;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+    filter: none;
+    object-fit: contain;
+    display: block;
 }
 
+.skill-item:hover .kotlin-icon {
+    transform: scale(1.1);
+}
+
+.skill-item span {
+    color: var(--text-light);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+}
+
+/* Colorful tech icons with new vibrant colors */
+.skill-item .fa-android {
+    color: #00E676; /* Bright green */
+}
+
+.skill-item .fa-java {
+    color: #448AFF; /* Electric blue */
+}
+
+.skill-item .fa-js {
+    color: #FF9100; /* Bright orange */
+}
+
+.skill-item .fa-react {
+    color: #00B0FF; /* Bright blue */
+}
+
+.skill-item .fa-node-js {
+    color: #69F0AE; /* Bright teal */
+}
+
+.skill-item .devicon-cplusplus-plain {
+    color: #7C4DFF; /* Bright purple */
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.skill-item .fa-aws {
+    color: #FF4081; /* Bright pink */
+}
+
+/* Custom Kotlin icon */
+.fab.fa-kotlin,
 .skill-icon {
-    filter: brightness(0) saturate(100%) invert(77%) sepia(83%) saturate(434%) hue-rotate(359deg) brightness(103%) contrast(107%);
+    display: none;
+}
+
+/* Remove the outdated styles */
+.skill-item .fa-code,
+.skill-item .fa-cloud,
+.skill-icon {
+    display: none;
 }
 
 /* Portfolio Section */
@@ -420,5 +506,47 @@ h2 {
     
     .skills-grid {
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+} 
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    .skill-item {
+        padding: 1.5rem;
+    }
+
+    .skill-item i {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .kotlin-icon {
+        width: 2rem;
+        height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .skill-item span {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 1rem;
     }
 } 
