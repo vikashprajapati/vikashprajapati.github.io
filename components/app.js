@@ -25,11 +25,12 @@ document.addEventListener('DOMContentLoaded', () => {
     app.appendChild(renderContact());
     renderFooter();
 
-    // Initialize interactive features
+    // Initialize all interactive features
     initializeMenuToggle();
     initializeHeaderScroll();
     initializeMouseTracking();
     initializeHexagonGrid();
+    initializeSmoothScroll();
 });
 
 // Mobile menu toggle
@@ -100,5 +101,27 @@ function initializeHexagonGrid() {
         const oldGrid = document.querySelector('.hexagon-grid');
         if (oldGrid) oldGrid.remove();
         createGrid();
+    });
+}
+
+// Initialize smooth scrolling
+function initializeSmoothScroll() {
+    document.addEventListener('click', (e) => {
+        const link = e.target.closest('a[href^="#"]');
+        if (link) {
+            e.preventDefault();
+            const targetId = link.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                const headerOffset = 80; // Height of fixed header
+                const elementPosition = targetElement.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        }
     });
 } 
