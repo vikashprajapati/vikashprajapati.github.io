@@ -72,43 +72,61 @@
 </head>
 <body>
     <header>
-        <nav aria-label="Main navigation">
-            <div class="logo">
-                <a href="#" class="logo-link" aria-label="Home">
-                    <img src="assets/logo.png" alt="Vikash Prajapati Logo" class="logo-image" width="240" height="40">
-                </a>
+        <nav>
+            <a href="#" class="logo-link">
+                <img src="assets/icons/logo.svg" alt="Vikash Prajapati" class="logo-image">
+            </a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#contact" class="get-started-btn">Get in Touch</a>
             </div>
-            <ul>
-                <li><a href="#about" aria-label="About me section">About</a></li>
-                <li><a href="#experience" aria-label="Work experience section">Experience</a></li>
-                <li><a href="#skills" aria-label="Technical skills section">Skills</a></li>
-                <li><a href="#portfolio" aria-label="Project portfolio section">Projects</a></li>
-                <li><a href="#contact" aria-label="Contact information section">Contact</a></li>
-            </ul>
         </nav>
     </header>
 
     <main>
         <!-- Hero Section -->
-        <section class="hero" aria-label="Introduction">
+        <section class="hero">
             <div class="hero-content">
-                <h1>I'M <span class="highlight">Vikash Prajapati</span></h1>
-                <span class="title">Senior Android Engineer</span>
-                <span class="subtitle">Specialized in SDK Development & App Optimization</span>
-                <button class="contact-btn" onclick="location.href='#contact'" aria-label="Contact me">Contact Me</button>
-                <div class="social-links" aria-label="Social media links">
-                    <a href="https://www.linkedin.com/in/vikash-41abb8101/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
-                        <i class="fab fa-linkedin" aria-hidden="true"></i>
-                        <span class="sr-only">LinkedIn</span>
-                    </a>
-                    <a href="mailto:vikash.mca18.du@gmail.com" aria-label="Email Me">
-                        <i class="fas fa-envelope" aria-hidden="true"></i>
-                        <span class="sr-only">Email</span>
-                    </a>
-                    <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
-                        <i class="fab fa-github" aria-hidden="true"></i>
-                        <span class="sr-only">GitHub</span>
-                    </a>
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Senior Android Engineer
+                        <span class="gradient-text">Specialized in SDK Development</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Crafting high-performance Android solutions with expertise in SDK development, 
+                        app optimization, and IoT integration. Reduced ANRs by 70% at Paytm.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="primary-btn">
+                            Get in Touch
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#portfolio" class="secondary-btn">
+                            View Portfolio
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <div class="tech-stack">
+                        <div class="tech-badge">
+                            <i class="fab fa-android"></i>
+                            Android
+                        </div>
+                        <div class="tech-badge">
+                            <i class="fab fa-kotlin"></i>
+                            Kotlin
+                        </div>
+                        <div class="tech-badge">
+                            <i class="fab fa-java"></i>
+                            Java
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/profile.jpg" alt="Vikash Prajapati - Senior Android Engineer">
                 </div>
             </div>
         </section>
@@ -271,6 +289,72 @@
             "name": "Vikash Prajapati"
         }
     }
+    </script>
+
+    <!-- Scripts -->
+    <script>
+        // Mobile menu toggle
+        const menuButton = document.querySelector('.menu-button');
+        const navMenu = document.querySelector('nav ul');
+        
+        menuButton.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Header scroll effect
+        const header = document.querySelector('header');
+        const scrollThreshold = 50;
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > scrollThreshold) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Mouse tracking for background glow effect
+        document.addEventListener('mousemove', (e) => {
+            const x = (e.clientX / window.innerWidth) * 100;
+            const y = (e.clientY / window.innerHeight) * 100;
+            document.body.style.setProperty('--mouse-x', `${x}%`);
+            document.body.style.setProperty('--mouse-y', `${y}%`);
+        });
+
+        // Create hexagon grid
+        function createHexagonGrid() {
+            const container = document.createElement('div');
+            container.className = 'hexagon-grid';
+            
+            const rows = Math.ceil(window.innerHeight / 100) + 1;
+            const cols = Math.ceil(window.innerWidth / 87) + 1;
+            
+            for (let row = 0; row < rows; row++) {
+                for (let col = 0; col < cols; col++) {
+                    const hexagon = document.createElement('div');
+                    hexagon.className = 'hexagon';
+                    
+                    // Position hexagons in a grid
+                    const x = col * 87 - (row % 2) * 43.5;
+                    const y = row * 75;
+                    
+                    hexagon.style.left = `${x}px`;
+                    hexagon.style.top = `${y}px`;
+                    
+                    container.appendChild(hexagon);
+                }
+            }
+            
+            document.body.appendChild(container);
+        }
+
+        // Initialize and handle resize
+        window.addEventListener('load', createHexagonGrid);
+        window.addEventListener('resize', () => {
+            const oldGrid = document.querySelector('.hexagon-grid');
+            if (oldGrid) oldGrid.remove();
+            createHexagonGrid();
+        });
     </script>
 </body>
 </html> 
