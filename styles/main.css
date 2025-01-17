@@ -10,6 +10,7 @@
 @import url('layouts/_portfolio.css');
 @import url('layouts/_contact.css');
 @import url('layouts/_footer.css');
+@import url('components/_background-effects.css');
 
 /* Base styles */
 body {
