@@ -2,14 +2,12 @@
 .primary-btn {
     background: var(--primary-gradient);
     color: var(--text-light);
-    padding: 1rem 2rem;
-    border-radius: var(--radius-sm);
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
     font-weight: 500;
+    font-size: 0.9375rem;
     text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.75rem;
-    transition: all var(--transition-base);
+    transition: all 0.3s ease;
     border: none;
     cursor: pointer;
     position: relative;
@@ -25,7 +23,7 @@
     height: 100%;
     background: linear-gradient(rgba(255, 255, 255, 0.15), transparent);
     transform: translateY(-100%);
-    transition: transform var(--transition-base);
+    transition: transform 0.3s ease;
 }
 
 .primary-btn:hover::before {
@@ -36,15 +34,15 @@
 .secondary-btn {
     background: transparent;
     color: var(--text-light);
-    padding: 1rem 2rem;
-    border-radius: var(--radius-sm);
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
     font-weight: 500;
     text-decoration: none;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
     display: inline-flex;
     align-items: center;
     gap: 0.75rem;
-    transition: all var(--transition-base);
-    border: 1px solid var(--border-color);
 }
 
 .secondary-btn:hover {
@@ -57,11 +55,11 @@
     background: var(--primary-gradient);
     color: var(--text-light);
     padding: 0.75rem 1.5rem;
-    border-radius: var(--radius-sm);
+    border-radius: 8px;
     font-weight: 500;
     font-size: 0.9375rem;
     text-decoration: none;
-    transition: all var(--transition-base);
+    transition: all 0.3s ease;
     border: none;
     cursor: pointer;
     position: relative;
