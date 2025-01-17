@@ -34,20 +34,6 @@ export function renderExperience() {
                     <p>• Integrated WebRTC for real-time video communication</p>
                 </div>
             </div>
-
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-laptop-code"></i>
-                </div>
-                <div class="timeline-content">
-                    <h3>Android Developer</h3>
-                    <span class="time">2020 - 2021</span>
-                    <p class="company">Freelance</p>
-                    <p>• Developed multiple Android applications for clients</p>
-                    <p>• Specialized in IoT integration and real-time data processing</p>
-                    <p>• Implemented clean architecture and modern Android practices</p>
-                </div>
-            </div>
         </div>
     `;
 

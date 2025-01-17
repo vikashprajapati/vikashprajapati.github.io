@@ -2,7 +2,7 @@ export function renderFooter() {
     const footer = document.createElement('footer');
     
     footer.innerHTML = `
-        <p>&copy; 2024 Vikash Prajapati. All Rights Reserved</p>
+        <p style="text-align: center;">Made with <span class="heart">❤️</span> by Vikash Prajapati</p>
     `;
 
     document.body.appendChild(footer);
