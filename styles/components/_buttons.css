@@ -1,0 +1,69 @@
+/* Primary Button */
+.primary-btn {
+    background: var(--primary-gradient);
+    color: var(--text-light);
+    padding: 1rem 2rem;
+    border-radius: var(--radius-sm);
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    transition: all var(--transition-base);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.primary-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.15), transparent);
+    transform: translateY(-100%);
+    transition: transform var(--transition-base);
+}
+
+.primary-btn:hover::before {
+    transform: translateY(0);
+}
+
+/* Secondary Button */
+.secondary-btn {
+    background: transparent;
+    color: var(--text-light);
+    padding: 1rem 2rem;
+    border-radius: var(--radius-sm);
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    transition: all var(--transition-base);
+    border: 1px solid var(--border-color);
+}
+
+.secondary-btn:hover {
+    border-color: var(--primary-color);
+    background: var(--hover-glow);
+}
+
+/* Get Started Button */
+.get-started-btn {
+    background: var(--primary-gradient);
+    color: var(--text-light);
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--radius-sm);
+    font-weight: 500;
+    font-size: 0.9375rem;
+    text-decoration: none;
+    transition: all var(--transition-base);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+} 
