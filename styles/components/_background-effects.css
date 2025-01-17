@@ -6,7 +6,7 @@ body::before {
     width: 200%;
     height: 200%;
     background-image: url("data:image/svg+xml,%3Csvg width='800' height='800' viewBox='0 0 50 44' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25 0l21.65 12.5v25L25 50 3.35 37.5v-25L25 0z' stroke='rgba(255, 255, 255, 0.05)' stroke-width='0.5' fill='none'/%3E%3C/svg%3E");
-    background-size: 50px 44px;
+    background-size: 125px 110px;
     background-position: center;
     animation: meshRotate 60s linear infinite;
     pointer-events: none;
