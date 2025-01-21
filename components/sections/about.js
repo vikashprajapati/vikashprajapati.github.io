@@ -6,10 +6,11 @@ export function renderAbout() {
     section.innerHTML = `
         <h2>About Me</h2>
         <p class="about-text">
-            Results-driven Senior Android Engineer with 3+ years of expertise in SDK development and app optimization. 
-            Reduced ANRs by 70% and improved launch times by 30% at Paytm. Specialized in building scalable Android 
-            libraries, IoT solutions, and video streaming applications. Strong track record in architectural design 
-            and performance optimization.
+            Senior Software Engineer with a passion for building scalable and efficient solutions. Currently at Paytm, 
+            working on innovative payment solutions and SDK development. Experienced in full-stack development with 
+            expertise in Android, React, Node.js, and cloud technologies. Strong focus on code quality, performance 
+            optimization, and architectural design. Committed to continuous learning and staying updated with the 
+            latest tech trends.
         </p>
     `;
 

@@ -6,12 +6,12 @@ export function renderHero() {
         <div class="hero-content">
             <div class="hero-text">
                 <h1 class="hero-title">
-                    Senior Android Engineer
-                    <span class="gradient-text">Specialized in SDK Development</span>
+                    Senior Software Engineer
+                    <span class="gradient-text">Full Stack Developer</span>
                 </h1>
                 <p class="hero-subtitle">
-                    Crafting high-performance Android solutions with expertise in SDK development, 
-                    app optimization, and IoT integration. Reduced ANRs by 70% at Paytm.
+                    Passionate about crafting scalable solutions with expertise in Android, React, and Node.js. 
+                    Currently building innovative payment solutions at Paytm.
                 </p>
                 <div class="hero-cta">
                     <a href="#contact" class="primary-btn">
@@ -29,12 +29,12 @@ export function renderHero() {
                         Android
                     </div>
                     <div class="tech-badge">
-                        <i class="devicon-kotlin-plain"></i>
-                        Kotlin
+                        <i class="fab fa-react"></i>
+                        React
                     </div>
                     <div class="tech-badge">
-                        <i class="fab fa-java"></i>
-                        Java
+                        <i class="fab fa-node-js"></i>
+                        Node.js
                     </div>
                 </div>
             </div>
