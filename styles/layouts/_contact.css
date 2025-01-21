@@ -3,28 +3,29 @@
     padding: 6rem 2rem;
     position: relative;
     z-index: 2;
-    margin: 0 auto;
-    max-width: 1200px;
+    background-color: #10131c;
 }
 
 .contact h2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
     background: var(--primary-gradient);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    letter-spacing: -0.02em;
 }
 
 .contact-subtitle {
     text-align: center;
-    color: var(--text-gray);
+    color: #94a3b8;
     font-size: 1.1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    line-height: 1.6;
 }
 
 .contact-container {
@@ -34,65 +35,105 @@
 }
 
 .contact-info {
+    max-width: 1000px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    padding: 0 1rem;
 }
 
 .info-item {
     background: var(--card-background);
-    border: 1px solid var(--border-color);
-    border-radius: 16px;
+    border-radius: var(--radius-lg);
     padding: 2rem;
     display: flex;
-    align-items: flex-start;
-    gap: 1.5rem;
+    align-items: center;
+    gap: 1.25rem;
     transition: all 0.3s ease;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.info-item::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        120deg,
+        rgba(255, 255, 255, 0.1) 0%,
+        rgba(255, 255, 255, 0.07) 25%,
+        transparent 50%
+    );
+    opacity: 0;
+    transition: opacity var(--transition-smooth);
+    pointer-events: none;
 }
 
 .info-item:hover {
-    transform: translateY(-4px);
+    transform: translateY(-5px);
     border-color: var(--primary-color);
     box-shadow: 0 8px 24px var(--hover-glow);
 }
 
-.info-icon {
-    width: 48px;
-    height: 48px;
-    background: var(--primary-gradient);
-    border-radius: 12px;
+.info-item:hover::before {
+    opacity: 1;
+}
+
+.info-item i {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    background: rgba(14, 165, 233, 0.1);
+    padding: 1rem;
+    border-radius: var(--radius-lg);
+    transition: all 0.3s ease;
+    min-width: 3.5rem;
+    height: 3.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
 }
 
-.info-icon i {
-    font-size: 1.5rem;
-    color: var(--text-light);
+.info-item:hover i {
+    background: var(--primary-color);
+    color: white;
+    transform: scale(1.05);
 }
 
-.info-content {
+.info-item-content {
     flex: 1;
+    min-width: 0;
 }
 
-.info-content h3 {
-    font-size: 1.1rem;
+.info-item h3 {
     color: var(--text-light);
-    margin-bottom: 0.5rem;
-    font-weight: 500;
+    font-size: var(--text-base);
+    font-weight: var(--font-semibold);
+    margin-bottom: 0.25rem;
 }
 
-.info-content p, 
-.info-content a {
+.info-item p,
+.info-item a {
     color: var(--text-gray);
-    font-size: 1rem;
-    line-height: 1.5;
-    text-decoration: none;
+    font-size: var(--text-sm);
     transition: color 0.3s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    line-height: 1.5;
 }
 
-.info-content a:hover {
+.info-item:hover p,
+.info-item:hover a {
+    color: var(--text-light);
+}
+
+.info-item a:hover {
     color: var(--primary-color);
 }
 
@@ -132,37 +173,30 @@
 @media (max-width: 1024px) {
     .contact-info {
         grid-template-columns: repeat(2, 1fr);
+        max-width: 700px;
     }
 }
 
 @media (max-width: 768px) {
     .contact {
-        padding: 4rem 1.5rem;
+        padding: 4rem 1rem;
     }
 
     .contact h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .contact-subtitle {
         font-size: 1rem;
-        margin-bottom: 3rem;
+        margin-bottom: 2.5rem;
     }
 
     .contact-info {
         grid-template-columns: 1fr;
+        max-width: 400px;
     }
 
     .info-item {
         padding: 1.5rem;
-    }
-
-    .info-icon {
-        width: 40px;
-        height: 40px;
-    }
-
-    .info-icon i {
-        font-size: 1.25rem;
     }
 } 
