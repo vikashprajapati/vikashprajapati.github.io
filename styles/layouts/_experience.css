@@ -23,68 +23,108 @@
     padding: 2rem 0;
 }
 
-/* Vertical Line */
+/* Main vertical line with gradient fade effect */
 .timeline::before {
     content: '';
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 100px;
     width: 2px;
     height: 100%;
-    background: var(--primary-gradient);
+    background: linear-gradient(
+        180deg,
+        transparent 0%,
+        var(--primary-color) 15%,
+        var(--primary-color) 85%,
+        transparent 100%
+    );
     opacity: 0.3;
+    transform: translateX(-50%);
+    filter: blur(0.5px);
 }
 
 /* Timeline Items */
 .timeline-item {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     margin-bottom: 4rem;
     position: relative;
+    padding-left: 100px;
 }
 
-/* Timeline Content */
-.timeline-content {
-    width: 45%;
-    padding: 2rem;
-    background: var(--card-background);
-    border-radius: var(--radius-md);
-    border: 1px solid var(--border-color);
-    position: relative;
-    transition: all var(--transition-base);
-}
-
-/* Alternate sides */
-.timeline-item:nth-child(odd) .timeline-content {
-    margin-right: auto;
-    text-align: right;
-}
-
-.timeline-item:nth-child(even) .timeline-content {
-    margin-left: auto;
-    text-align: left;
-}
-
-/* Timeline Icon */
+/* Timeline Icon with modern glow */
 .timeline-icon {
     position: absolute;
-    left: 50%;
+    left: 100px;
     transform: translateX(-50%);
     width: 3rem;
     height: 3rem;
-    background: var(--card-background);
+    background: var(--background-dark);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 2px solid var(--primary-color);
     z-index: 2;
+    box-shadow: 
+        0 0 0 8px var(--background-dark),
+        0 0 20px rgba(14, 165, 233, 0.3);
+    transition: all var(--transition-base);
 }
 
+.timeline-icon:hover {
+    box-shadow: 
+        0 0 0 8px var(--background-dark),
+        0 0 30px rgba(14, 165, 233, 0.5);
+}
+
+/* Remove previous line segments */
+.timeline-item::before {
+    display: none;
+}
+
+/* Timeline Content with enhanced glass effect */
+.timeline-content {
+    width: calc(100% - 50px);
+    padding: 2rem;
+    background: linear-gradient(
+        145deg,
+        rgba(20, 23, 34, 0.7),
+        rgba(20, 23, 34, 0.4)
+    );
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    transition: all var(--transition-base);
+    margin-left: 50px;
+    text-align: left;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Remove alternate sides styling */
+.timeline-item:nth-child(odd) .timeline-content,
+.timeline-item:nth-child(even) .timeline-content {
+    margin-left: 50px;
+    text-align: left;
+}
+
+/* Timeline Icon */
 .timeline-icon i {
     font-size: 1.25rem;
     color: var(--primary-color);
+}
+
+/* Enhanced time display */
+.timeline-content .time {
+    font-size: 0.9rem;
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    font-weight: 500;
 }
 
 /* Timeline Content Styles */
@@ -92,13 +132,6 @@
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     color: var(--text-light);
-}
-
-.timeline-content .time {
-    font-size: 0.9rem;
-    color: var(--primary-color);
-    margin-bottom: 0.5rem;
-    display: block;
 }
 
 .timeline-content .company {
@@ -120,11 +153,18 @@
     padding-left: 0.5rem;
 }
 
-/* Hover Effects */
+/* Enhanced hover effects */
 .timeline-content:hover {
-    transform: translateY(-5px);
-    border-color: var(--primary-color);
-    box-shadow: 0 8px 24px var(--hover-glow);
+    transform: translateY(-5px) translateX(3px);
+    border-color: transparent;
+    background: linear-gradient(
+        145deg,
+        rgba(20, 23, 34, 0.8),
+        rgba(20, 23, 34, 0.5)
+    );
+    box-shadow: 
+        0 10px 40px rgba(0, 0, 0, 0.2),
+        0 0 0 1px rgba(255, 255, 255, 0.1);
 }
 
 /* Timeline Icon Glow Effect */
@@ -148,20 +188,14 @@
     .timeline::before {
         left: 1rem;
     }
-
+    
     .timeline-item {
-        justify-content: flex-start;
-    }
-
-    .timeline-content {
-        width: calc(100% - 3rem);
-        margin-left: 3rem !important;
-        text-align: left !important;
+        padding-left: 0;
     }
 
     .timeline-icon {
         left: 1rem;
-        transform: none;
+        box-shadow: 0 0 0 6px var(--background-dark);
     }
 
     .experience h2 {
