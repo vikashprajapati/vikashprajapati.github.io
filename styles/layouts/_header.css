@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-    max-width: 1400px;
+    flex-grow: 1;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -32,6 +32,21 @@ nav {
 .logo-image {
     height: 2rem;
     width: auto;
+}
+
+.logo-link span {
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+    font-size: 1.25rem;
+    letter-spacing: -0.02em;
+    transition: opacity 0.2s ease;
+}
+
+.logo-link:hover span {
+    opacity: 0.9;
 }
 
 .nav-links {

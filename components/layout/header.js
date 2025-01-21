@@ -4,8 +4,8 @@ export function renderHeader() {
     header.innerHTML = `
         <nav>
             <a href="#" class="logo-link">
-                <img src="/assets/images/logo.svg" alt="Logo" class="logo-image">
-                <span>Portfolio</span>
+                <img src="/assets/icons/kotlin.svg" alt="Logo" class="logo-image">
+                <span>Vikash Prajapati</span>
             </a>
             
             <ul class="nav-links">
@@ -17,7 +17,6 @@ export function renderHeader() {
             </ul>
 
             <div class="nav-right">
-                <a href="#login" class="login-link">Login</a>
                 <a href="#contact" class="get-started-btn">Get started</a>
             </div>
 
