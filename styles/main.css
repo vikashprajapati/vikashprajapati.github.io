@@ -1,17 +1,17 @@
 /* Import base styles */
-@import url('./base/_variables.css');
-@import url('./base/_reset.css');
-@import url('./utilities/_helpers.css');
-@import url('./components/_buttons.css');
-@import url('./layouts/_header.css');
-@import url('./layouts/_hero.css');
-@import url('./layouts/_about.css');
-@import url('./layouts/_experience.css');
-@import url('./layouts/_skills.css');
-@import url('./layouts/_portfolio.css');
-@import url('./layouts/_contact.css');
-@import url('./layouts/_footer.css');
-@import url('./components/_background-effects.css');
+@import url('/styles/base/_variables.css');
+@import url('/styles/base/_reset.css');
+@import url('/styles/utilities/_helpers.css');
+@import url('/styles/components/_buttons.css');
+@import url('/styles/layouts/_header.css');
+@import url('/styles/layouts/_hero.css');
+@import url('/styles/layouts/_about.css');
+@import url('/styles/layouts/_experience.css');
+@import url('/styles/layouts/_skills.css');
+@import url('/styles/layouts/_portfolio.css');
+@import url('/styles/layouts/_contact.css');
+@import url('/styles/layouts/_footer.css');
+@import url('/styles/components/_background-effects.css');
 
 /* Base styles */
 body {
@@ -24,5 +24,3 @@ body {
     position: relative;
     overflow-x: hidden;
 }
-
-// ... existing code ... 
