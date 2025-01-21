@@ -1,17 +1,17 @@
 /* Import base styles */
-@import url('/styles/base/_variables.css');
-@import url('/styles/base/_reset.css');
-@import url('/styles/utilities/_helpers.css');
-@import url('/styles/components/_buttons.css');
-@import url('/styles/layouts/_header.css');
-@import url('/styles/layouts/_hero.css');
-@import url('/styles/layouts/_about.css');
-@import url('/styles/layouts/_experience.css');
-@import url('/styles/layouts/_skills.css');
-@import url('/styles/layouts/_portfolio.css');
-@import url('/styles/layouts/_contact.css');
-@import url('/styles/layouts/_footer.css');
-@import url('/styles/components/_background-effects.css');
+@import 'base/_variables.css';
+@import 'base/_reset.css';
+@import 'utilities/_helpers.css';
+@import 'components/_buttons.css';
+@import 'layouts/_header.css';
+@import 'layouts/_hero.css';
+@import 'layouts/_about.css';
+@import 'layouts/_experience.css';
+@import 'layouts/_skills.css';
+@import 'layouts/_portfolio.css';
+@import 'layouts/_contact.css';
+@import 'layouts/_footer.css';
+@import 'components/_background-effects.css';
 
 /* Base styles */
 body {
