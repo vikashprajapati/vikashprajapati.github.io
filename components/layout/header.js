@@ -4,7 +4,6 @@ export function renderHeader() {
     header.innerHTML = `
         <nav>
             <a href="#" class="logo-link">
-                <img src="/assets/icons/kotlin.svg" alt="Logo" class="logo-image">
                 <span>Vikash Prajapati</span>
             </a>
             
