@@ -24,11 +24,23 @@
 
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
+}
+
+/* When only two items are present */
+.portfolio-grid:has(.portfolio-item:nth-child(2):last-child) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 800px;
+}
+
+/* When only one item is present */
+.portfolio-grid:has(.portfolio-item:first-child:last-child) {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 400px;
 }
 
 .portfolio-item {
@@ -117,6 +129,12 @@
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 768px) {
     .portfolio {
         padding: 4rem 1rem;
