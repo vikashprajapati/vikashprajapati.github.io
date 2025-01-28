@@ -1,3 +1,10 @@
+/* Base background */
+body {
+    background: var(--background-dark);
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+}
+
 /* Hexagonal mesh background */
 body::before {
     content: '';
@@ -8,10 +15,10 @@ body::before {
     background-image: url("data:image/svg+xml,%3Csvg width='800' height='800' viewBox='0 0 50 44' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25 0l21.65 12.5v25L25 50 3.35 37.5v-25L25 0z' stroke='rgba(255, 255, 255, 0.05)' stroke-width='0.5' fill='none'/%3E%3C/svg%3E");
     background-size: 125px 110px;
     background-position: center;
-    animation: meshRotate 60s linear infinite;
+    animation: meshRotate 60s linear infinite, meshFadeIn 2s ease-out forwards;
     pointer-events: none;
     z-index: 0;
-    opacity: 0.5;
+    opacity: 0;
 }
 
 /* Interactive glow layer */
@@ -26,8 +33,10 @@ body::after {
     );
     pointer-events: none;
     z-index: 1;
-    opacity: 0.5;
+    opacity: 0;
     transition: opacity 0.3s ease;
+    animation: glowFadeIn 1.5s ease-out forwards;
+    animation-delay: 0.5s;
 }
 
 /* Hexagon Grid */
@@ -40,6 +49,9 @@ body::after {
     overflow: hidden;
     z-index: 0;
     pointer-events: none;
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+    animation-delay: 0.3s;
 }
 
 .hexagon {
@@ -50,18 +62,61 @@ body::after {
     border: 1px solid rgba(255, 255, 255, 0.05);
     clip-path: polygon(50% 0%, 93.3% 25%, 93.3% 75%, 50% 100%, 6.7% 75%, 6.7% 25%);
     transition: all 0.3s ease;
+    opacity: 0;
+    animation: hexagonAppear 0.5s ease-out forwards;
 }
 
 .hexagon:hover {
     border-color: var(--primary-color);
     background: var(--hover-glow);
+    transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes meshFadeIn {
+    from { 
+        opacity: 0;
+        transform: scale(1.1);
+    }
+    to { 
+        opacity: 0.5;
+        transform: scale(1);
+    }
+}
+
+@keyframes glowFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+}
+
+@keyframes hexagonAppear {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @keyframes meshRotate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-} 
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Stagger hexagon animations */
+.hexagon:nth-child(3n) { animation-delay: 0.1s; }
+.hexagon:nth-child(3n+1) { animation-delay: 0.2s; }
+.hexagon:nth-child(3n+2) { animation-delay: 0.3s; } 
