@@ -7,10 +7,10 @@ export function renderHero() {
             <div class="hero-text">
                 <h1 class="hero-title">
                     Senior Software Engineer
-                    <span class="gradient-text">Full Stack Developer</span>
+                    <span class="gradient-text">Android Developer</span>
                 </h1>
                 <p class="hero-subtitle">
-                    Passionate about crafting scalable solutions with expertise in Android, React, and Node.js. 
+                    Passionate about crafting exceptional Android applications with expertise in Kotlin, Java, and modern Android development practices. 
                     Currently building innovative payment solutions at Paytm.
                 </p>
                 <div class="hero-cta">
@@ -29,12 +29,16 @@ export function renderHero() {
                         Android
                     </div>
                     <div class="tech-badge">
-                        <i class="fab fa-react"></i>
-                        React
+                        <i class="fab fa-kotlin"></i>
+                        Kotlin
                     </div>
                     <div class="tech-badge">
-                        <i class="fab fa-node-js"></i>
-                        Node.js
+                        <i class="fab fa-java"></i>
+                        Java
+                    </div>
+                    <div class="tech-badge">
+                        <i class="fas fa-mobile-alt"></i>
+                        Mobile Apps
                     </div>
                 </div>
             </div>
